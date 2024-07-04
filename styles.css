@@ -454,7 +454,21 @@ h4{
 }
 
 
+.row{
+    width: calc(100vw - 80px);
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 160px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1440px;
+    gap: 2px;
+  }
 
+  .row2{
+
+  }
 
 @media only screen and (max-width:810px){
     .buttons-container{
@@ -542,17 +556,17 @@ h4{
     .sandwich{
         display:inline
     }
+
+    .row{
+        flex-direction: column;
+        width: calc(100vw - 32px);
+        margin-top: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .row2{
+        margin-top: 2px !important;
+    }
 }
 
-.row{
-    width: 100vw;
-    display: inline-flex;
-    align-items: flex-start;
-    align-content: flex-start;
-    margin-top: 160px;
-    margin-left: 40px;
-    margin-right: 40px;
-    max-width: 1440px;
-    flex-wrap: wrap;
-    gap: 2px;
-  }
