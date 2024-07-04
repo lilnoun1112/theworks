@@ -2,7 +2,6 @@ backend:
   name: github
   repo: lilnoun1112/theworks
   branch: main
-  token: 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
 
 media_folder: static/img
 public_folder: /img
