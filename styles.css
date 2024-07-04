@@ -1,0 +1,558 @@
+body {
+    background-color: #E2E7E9;
+    margin: 0px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+a{
+    text-decoration: none; 
+}
+
+.link{    
+    cursor: pointer;
+    color: #7E878B;
+    font-family: "Museo Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none; 
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: gap 0.3s ease-out;
+}
+
+.link:hover{
+    color: #A8B2B7;
+    gap: 16px;
+}
+
+.href-arrow{
+    width: 12px;
+    height: 12px;
+    background-image: url(images/href-arrow-0.png);
+    transform: rotate(0deg);
+    transition: background-image 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.link:hover .href-arrow{
+    background-image: url(images/href-arrow-1.png);
+    transform: rotate(45deg);
+}
+
+.menu-container{
+    width: calc(100% - 32px);
+    margin: 20px 16px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2px;
+}
+
+.button{
+    cursor: pointer;
+	border-radius: 8px;
+	background: #FFF;
+    display: flex;
+    width: fit-content;
+	padding: 16px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+    color: #000;
+	font-family: Helvetica Neue, Helvetica, sans-serif, Helvetica Neue Bold;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+}
+
+.button-logo{
+    cursor: pointer;
+	border-radius: 8px;
+	background: #FFF;
+    display: flex;
+    width: fit-content;
+	padding: 10px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+    color: #000;
+	font-family: Helvetica Neue, Helvetica, sans-serif, Helvetica Neue Bold;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+}
+
+.menu-wrapper{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 2px;
+}
+
+.underline{
+	width: 0px;
+	height: 1px;
+	align-self: stretch;
+    background: #000;
+    transition: width 0.3s ease-out;
+}
+
+.button:hover .underline{
+	width:100%;
+}
+
+.hero{
+    width:auto;
+    height:98vh;
+    background-image: url(images/sphere11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: stretch;
+}
+
+.team{
+    background-image: url(images/team.jpg);
+}
+
+.section-wrapper{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    padding: 0px 40px;
+}
+
+.sphere{
+    width:auto;
+    height:98vh;
+    background-image: url(images/sphere12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: stretch;
+}
+
+.textbox-container{
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: 160px 40px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 2px;
+    height: fit-content;
+}
+
+.titlebox{
+    display: flex;
+    padding: 28px 40px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #FFF;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    max-width: 1440px;
+}
+
+.textbox{
+    display: flex;
+    padding: 28px 40px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #FFF;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 32px;
+}
+
+@font-face {
+    font-family: Museo Sans;
+    src: url(fonts/museosans700.ttf);
+  }
+
+h1{
+    color: #000;
+    font-family: "Museo Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+    height: 100%;
+}
+
+h2{
+    color: #000;
+    font-family: "Museo Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+    height: 100%;
+}
+
+p{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin: 0px;
+}
+
+.publications-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    margin: 160px 40px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 2px;
+
+}
+
+.teaser-container{
+    display: flex;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    align-self: stretch;
+}
+
+.teaser-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    flex: 1 0 0;
+}
+
+
+
+.teaser-1{}
+
+.teaser-2{}
+
+.teaser-3{}
+
+.teaser-image{
+    height: 286px;
+    align-self: stretch;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+h3{
+    color: #000;
+    font-family: "Museo Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 41.6px */
+    margin: 0px;
+}
+
+h4{
+    color: #000;
+    font-family: "Museo Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
+.teaser-textbox{
+    display: flex;
+    padding: 20px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.tag{
+    margin: 10px;
+    width: fit-content;
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: #000;
+    color: #fff;
+    font-family: "Museo Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.teas-txt-inner{
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.teas2-txt-inner{
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.button-card{
+    cursor: pointer;
+    background-color: #000;
+    border-radius: 8px;
+    color: #fff;
+    font-family: "Museo Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    transition: background-color 0.3s ease-out, 0.3s ease-out;
+}
+
+
+.button-card:hover{
+    background-color: #2B3135;
+    color: #fff;
+    gap: 16px;
+}
+
+.button-arrow{
+    width: 12px;
+    height: 12px;
+    background-image: url(images/href-arrow-2.png);
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-out;
+}
+
+.button-card:hover .button-arrow{
+    transform: rotate(45deg);
+}
+
+.card-default{
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+
+.button-icon{
+    display: flex;
+    height: 40px;
+    align-self: stretch;
+    padding: 8px 20px;
+    align-items: center;
+    gap: 0px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.footer-buttons{
+    display: flex; 
+    align-items: center; 
+    gap: 2px; 
+    align-self: stretch;
+}
+
+.about{}
+
+.sandwich{
+    padding-top: 19px;
+    padding-bottom: 15px;
+    display: none;
+}
+
+.mobile-menu{
+    height:0px;
+    width: calc(100% - 32px);
+    align-self: stretch;
+    position: absolute;
+    top: 64px;
+    display: none;
+    padding: 20px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+    border-radius: 8px;
+    background: #fff;
+    z-index: 200;
+    color: #000;
+    transition: height 0.3s ease-out;
+}
+
+.mobile-menu.show {
+    display: flex; /* Show when the 'show' class is added */
+    height: auto;
+}
+
+
+
+
+@media only screen and (max-width:810px){
+    .buttons-container{
+        display: none;
+    }
+
+    .teaser-3{
+        display: none;
+    }
+
+    .textbox-container{
+        flex-direction: column;
+    }
+
+    .about{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .teaser-container{
+        flex-direction: column;
+    }
+
+    .teaser-card{
+        width:100%;
+    }
+
+    .footer-buttons{
+        flex-direction: column;
+    }
+
+    .hero{
+        padding-top: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+        background-image: url(images/sphere11-mobile.jpg);
+    }
+
+    .team{
+        background-image: url(images/team-mobile.jpg);
+    }
+    
+    .section-wrapper{
+        padding: 0px 16px;
+    }
+    
+    .sphere{
+        padding-top: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+        height: 140vh;
+        background-image: url(images/sphere12-mobile.jpg);
+    }
+    
+    .textbox-container{
+        margin: 16px 16px;
+    }
+
+    .publications-container{
+        margin: 48px 16px;   
+    }
+
+    h1{
+
+        font-size: 32px;
+ 
+    }
+    
+    h2{
+
+        font-size: 32px;
+
+    }
+
+    .titlebox{
+        padding: 16px;
+        gap: 24px;
+    }
+    
+    .textbox{
+        padding: 16px;
+        gap: 24px;
+    }
+
+    .sandwich{
+        display:inline
+    }
+}
+
+.row{
+    width: 100vw;
+    display: inline-flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 160px;
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 1440px;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
