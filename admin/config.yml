@@ -1,8 +1,8 @@
 backend:
-  name: [github | gitlab]
-  repo: adrian-ub/adrian-ub # Path to your Github/Gitlab repository
-  branch: main # Branch to update
-  base_url: https://netlify-cms.adrianub.vercel.app
+  name: github
+  repo: lilnoun1112/theworks
+  branch: main
+  base_url: https://decap-o-auth.vercel.app/api/auth
 
 media_folder: static/img
 public_folder: /img
