@@ -2,7 +2,7 @@ backend:
   name: github
   repo: lilnoun1112/theworks
   branch: main
-  base_url: https://decap-o-auth.vercel.app/
+  base_url: https://decap-o-auth.vercel.app/api/auth
 
 media_folder: static/img
 public_folder: /img
