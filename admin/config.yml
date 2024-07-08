@@ -12,10 +12,11 @@ collections:
     label: "Publications"
     folder: "content/posts"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - { name: "title", label: "Title", widget: "string" }
       - { name: "tag", label: "Tag", widget: "string" }
+      - { name: "preview", label: "Preview", widget: "string" }
       - { name: "body", label: "Body", widget: "markdown" }
 
 
