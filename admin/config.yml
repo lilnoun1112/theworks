@@ -2,7 +2,7 @@ backend:
   name: github
   repo: lilnoun1112/theworks
   branch: main
-  base_url: https://decap-o-auth.vercel.app/api/auth
+  base_url: https://netlify-cms-oauth-delta.vercel.app
 
 media_folder: static/img
 public_folder: /img
