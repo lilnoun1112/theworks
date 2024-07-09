@@ -1,62 +1,43 @@
-document.addEventListener("DOMContentLoaded", async () => {
+async function fetchAndPopulate() {
   try {
-      const response = await fetch("/content/posts/list.json");
-      if (!response.ok) {
-          throw new Error(`Error fetching list.json: ${response.status} ${response.statusText}`);
-      }
-      const filenames = await response.json();
+      const response = await fetch('/content/posts/list.json'); // Fetch list of Markdown files
+      const fileList = await response.json(); // Parse JSON response to get array of filenames
 
-      const teaserCards = document.querySelectorAll('.teaser-card');
+      for (const filename of fileList) {
+          const markdownResponse = await fetch(filename);
+          const markdownText = await markdownResponse.text();
 
-      for (let i = 0; i < teaserCards.length && i < filenames.length; i++) {
-          const teaserCard = teaserCards[i];
-          const filename = filenames[i]; // Assume list.json is correctly structured
+          // Parse Markdown front matter (assuming it's JSON or YAML)
+          const frontMatter = parseMarkdownFrontMatter(markdownText);
+          console.log(frontMatter); // Log to inspect the parsed front matter
 
-          const mdResponse = await fetch(`/content/posts/${filename}`);
-          if (!mdResponse.ok) {
-              throw new Error(`Error fetching ${filename}: ${mdResponse.status} ${mdResponse.statusText}`);
-          }
-          const mdText = await mdResponse.text();
-
-          // Parse Markdown Front Matter and content
-          const { data, content } = parseMarkdown(mdText);
-
-          // Update teaser card elements
-          teaserCard.querySelector('.teaser-image img').setAttribute('src', data.image || ''); // Update with image src
-          teaserCard.querySelector('.tag').textContent = data.tag || ''; // Update with tag content
-          teaserCard.querySelector('h3').textContent = data.title || ''; // Update with title content
-          teaserCard.querySelector('p').textContent = data.preview || ''; // Update with preview content
-          teaserCard.querySelector('.button-card').setAttribute('href', `/posts/${filename.replace('.md', '')}`); // Update read more link
+          // Populate HTML elements based on front matter data
+          populateTeaserCard(frontMatter);
       }
   } catch (error) {
-      console.error(`Error fetching and populating Markdown content: ${error.message}`);
+      console.error('Error fetching and populating Markdown content:', error);
   }
-});
-
-function parseMarkdown(mdText) {
-  const lines = mdText.split('\n');
-  let frontMatter = '';
-  let content = '';
-
-  // Find where front matter ends
-  let index = 0;
-  for (; index < lines.length; index++) {
-      if (lines[index].trim() === '---') {
-          frontMatter = lines.slice(0, index + 1).join('\n').trim();
-          content = lines.slice(index + 1).join('\n').trim();
-          break;
-      }
-  }
-
-  // Parse front matter into JSON object
-  let data = {};
-  try {
-      data = JSON.parse(frontMatter.replace(/---/g, ''));
-  } catch (error) {
-      console.error(`Error parsing front matter: ${error.message}`);
-  }
-
-  return { data, content };
 }
+
+function parseMarkdownFrontMatter(markdownText) {
+  const start = markdownText.indexOf('---');
+  const end = markdownText.indexOf('---', start + 3);
+  const frontMatterText = markdownText.slice(start + 3, end).trim();
+  return YAML.parse(frontMatterText); // Assuming you're using a YAML parser
+}
+
+function populateTeaserCard(frontMatter) {
+  // Update HTML elements based on front matter properties
+  const teaserCard = document.querySelector('.teaser-card');
+  teaserCard.querySelector('img').src = frontMatter.image;
+  teaserCard.querySelector('.tag').textContent = frontMatter.tag;
+  teaserCard.querySelector('h3').textContent = frontMatter.title;
+  teaserCard.querySelector('p').textContent = frontMatter.preview;
+}
+
+// Execute the function on page load or wherever appropriate
+fetchAndPopulate();
+
+
 
   
