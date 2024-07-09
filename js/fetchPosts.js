@@ -1,45 +1,27 @@
-// fetchPosts.js
+// Assuming you have a script file (e.g., fetchPosts.js) linked at the end of your HTML
 
-document.addEventListener("DOMContentLoaded", () => {
-    async function fetchPosts() {
-      try {
-        const response = await fetch('/content/posts'); // Update the URL to your actual endpoint
-        const posts = await response.json();
-  
-        const teaserCards = document.querySelectorAll('.teaser-card');
-  
-        posts.forEach((post, index) => {
-          if (index < teaserCards.length) { // Ensure we don't exceed the number of available teaser cards
-            const teaserCard = teaserCards[index];
-            
-            const teaserImage = document.createElement('div');
-            teaserImage.classList.add('teaser-image');
-            teaserImage.innerHTML = `
-              <img src="${post.image}" alt="${post.title}">
-              <div class="tag">${post.tag}</div>
-            `;
-  
-            const teaserTextbox = document.createElement('div');
-            teaserTextbox.classList.add('teaser-textbox');
-            teaserTextbox.innerHTML = `
-              <h3>${post.title}</h3>
-              <p>${post.preview}</p>
-              <a href="${post.url}" class="button-card">read more<div class="button-arrow"></div></a>
-            `;
-  
-            // Clear existing content in teaser card and append new content
-            teaserCard.innerHTML = '';
-            teaserCard.appendChild(teaserImage);
-            teaserCard.appendChild(teaserTextbox);
-          }
-        });
-      } catch (error) {
-        console.error('Error fetching posts:', error);
-      }
-    }
-  
-    fetchPosts();
-  });
-  
+// Fetch posts from serverless function
+fetch('/api/posts')
+  .then(response => response.json())
+  .then(posts => {
+    // Iterate over each post and populate corresponding teaser-card elements
+    posts.forEach((post, index) => {
+      const teaserCard = document.querySelector(`.teaser-card.teaser-${index + 1}`);
 
-  
+      // Populate teaser-image div with post image
+      const teaserImage = teaserCard.querySelector('.teaser-image img');
+      teaserImage.src = post.image;
+      teaserImage.alt = post.title;
+
+      // Populate tag div with post tag
+      const tag = teaserCard.querySelector('.teaser-image .tag');
+      tag.textContent = post.tag;
+
+      // Populate teaser-textbox div with post title, preview, and read more link
+      const teaserTextbox = teaserCard.querySelector('.teaser-textbox');
+      teaserTextbox.querySelector('h3').textContent = post.title;
+      teaserTextbox.querySelector('p').textContent = post.preview;
+      teaserTextbox.querySelector('.button-card').href = post.url;
+    });
+  })
+  .catch(error => console.error('Error fetching and displaying posts:', error));
