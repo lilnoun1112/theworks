@@ -1,4 +1,4 @@
-// Assuming you have a script file (e.g., fetchPosts.js) linked at the end of your HTML
+// js/fetchPosts.js
 
 // Fetch posts from serverless function
 fetch('/api/posts')

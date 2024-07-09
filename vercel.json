@@ -1,12 +1,13 @@
 {
-    "functions": {
-      "api/**/*.js": {}
-    },
-    "routes": [
-      {
-        "src": "/api/(.*)",
-        "dest": "/api/$1"
-      }
-    ]
-  }
-  
+  "functions": {
+    "api/**/*.js": {
+      "memory": 512
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    }
+  ]
+}
