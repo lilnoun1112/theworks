@@ -1,8 +1,12 @@
 {
     "functions": {
-      "api/**/*.js": {
-        "runtime": "nodejs14.x"
+      "api/**/*.js": {}
+    },
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/$1"
       }
-    }
+    ]
   }
   
