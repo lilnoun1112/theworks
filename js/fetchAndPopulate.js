@@ -17,10 +17,12 @@ async function fetchAndPopulate() {
   
       // Loop through the teaser cards already defined in HTML
       const teaserCards = document.querySelectorAll('.teaser-card');
-      teaserCards.forEach(async (teaserCard, index) => {
+      for (let i = 0; i < teaserCards.length; i++) {
+        const teaserCard = teaserCards[i];
+  
         try {
           // Fetch content of the Markdown file corresponding to this teaser card
-          const filename = fileList[index];
+          const filename = fileList[i];
           const postResponse = await fetch(`/content/posts/${filename}`); // Adjust path based on your project structure
           if (!postResponse.ok) {
             throw new Error(`Failed to fetch ${filename} (${postResponse.status} ${postResponse.statusText})`);
@@ -48,7 +50,7 @@ async function fetchAndPopulate() {
         } catch (error) {
           console.error(`Error fetching and populating ${filename}:`, error);
         }
-      });
+      }
   
     } catch (error) {
       console.error('Error fetching list.json:', error);
