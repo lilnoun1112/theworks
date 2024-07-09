@@ -1,24 +1,22 @@
 {
-    "name": "my-project",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-      "dev": "vercel dev",
-      "build": "vercel",
-      "start": "vercel"
-    },
-    "dependencies": {
-      "express": "^4.17.1",
-      "vercel": "^23.0.1"
-    },
-    "devDependencies": {},
-    "vercel": {
-      "builds": [{ "src": "index.html", "use": "@vercel/static-build" }],
-      "functions": {
-        "api/posts.js": {
-          "runtime": "nodejs20.x"
-        }
+  "name": "my-project",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vercel dev",          // Command to run locally
+    "build": "echo 'No build step required'",  // Placeholder build command
+    "start": "echo 'No start command'"         // Placeholder start command
+  },
+  "dependencies": {
+    "vercel": "^23.0.1"           // Vercel CLI dependency
+  },
+  "vercel": {
+    "builds": [
+      { "src": "index.html", "use": "@vercel/static-build" }
+    ],
+    "functions": {
+      "api/posts.js": {
+        "runtime": "nodejs20.x"   // Specify the runtime for your serverless function
       }
     }
   }
-  
+}
