@@ -7,9 +7,6 @@
           "distDir": "dist"
         }
       }
-    ],
-    "scripts": {
-      "build": "chmod +x ./node_modules/.bin/eleventy && npm run build"
-    }
+    ]
   }
   
