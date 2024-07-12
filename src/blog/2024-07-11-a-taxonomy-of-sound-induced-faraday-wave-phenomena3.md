@@ -1,6 +1,7 @@
 ---
-title: A Taxonomy of Sound-Induced Faraday Wave Phenomena
-tags: ["post", "featured"]
+title: 3A Taxonomy of Sound-Induced Faraday Wave Phenomena
+tags: Post
+featured: true
 preview: Nonlinear standing waves known as Faraday waves are formed in vibrating
   liquids enclosed by a container.
 image: /img/sphere-2-1-.jpg
