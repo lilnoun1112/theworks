@@ -8,8 +8,7 @@ layout: 'base.njk'
         {% if count < 1 %}
             <li style="list-style: none">
                 <div class="feature-container">
-                    <div class="feature-image" style="width: 3fr">
-                        <img src="/static/{{ post.data.image }}">
+                    <div class="feature-image" style="width: 3fr background-image: url('/static/{{ post.data.image }}'); background-size: cover">
                         <div class="tag">{{ post.data.tags }}</div>
                     </div>
                     <div class="teaser-card" style="width: 4fr">
