@@ -2,29 +2,31 @@
 layout: 'base.njk'
 ---
 
-<ul class="section-wrapper">
-    {% set count = 0 %}
-    {%- for post in collections.featured | reverse -%}
-        {% if count < 1 %}
-            <li style="list-style: none">
+<div class="section-wrapper">
+
                 <div class="feature-container">
-                    <div class="feature-image" style="width: 3fr background-image: url('/static/{{ post.data.image }}'); background-size: cover">
-                        <div class="tag">{{ post.data.tags }}</div>
+                    <div class="feature-image" style="width: 3fr background-image: url('/static/{{ image }}'); background-size: cover">
+                        <div class="tag">{{ tags }}</div>
                     </div>
                     <div class="teaser-card" style="width: 4fr">
                         <div class="titlebox">
-                            <h2>{{ post.data.title }}</h2>
+                            <h2>{{ title }}</h2>
                         </div>
                         <div class="textbox">
-                            <p>{{ post.data.preview }}</p>
+                            <p>{{ preview }}</p>
                         </div>
                     </div>
                 </div>
-            </li>
-        {% endif %}
-        {% set count = count + 1 %}
-    {%- endfor -%}
-</ul>
+
+                <div class="section-wrapper">
+                    <div class="textbox">
+
+                        {{ content |safe }}
+
+                    </div>
+                </div>
+
+</div>
 
 
 
