@@ -538,7 +538,7 @@ h4{
     grid-template-columns: 3fr 4fr;
     max-width: 890px;
     width: 100%;
-    margin: 80px 40px;
+    margin: 84px 40px;
     gap: 2px;
     height: fit-content;
   }
