@@ -74,7 +74,7 @@ a{
 	justify-content: center;
 	align-items: flex-start;
     color: #000;
-	font-family: Helvetica Neue, Helvetica, sans-serif, Helvetica Neue Bold;
+	font-family: Inter;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: bold;
@@ -92,7 +92,7 @@ a{
 	justify-content: center;
 	align-items: flex-start;
     color: #000;
-	font-family: Helvetica Neue, Helvetica, sans-serif, Helvetica Neue Bold;
+	font-family: Inter;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: bold;
@@ -169,7 +169,7 @@ a{
     display: flex;
     max-width: 1440px;
     width: 100%;
-    margin: 160px 40px;
+    margin: 120px 40px;
     justify-content: flex-end;
     align-items: flex-start;
     gap: 2px;
@@ -244,7 +244,7 @@ p{
     flex-direction: column;
     width: 100%;
     max-width: 1440px;
-    margin: 160px 40px;
+    margin: 0px 40px;
     justify-content: flex-end;
     align-items: flex-start;
     gap: 2px;
@@ -259,6 +259,7 @@ p{
     gap: 2px;
     align-self: stretch;
     padding: 0px;
+    margin:0px;
 }
 
 .teaser-card{
@@ -295,10 +296,10 @@ p{
 h3{
     color: #000;
     font-family: "Museo Sans";
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
-    line-height: 130%; /* 41.6px */
+    line-height: 130%; 
     margin: 0px;
 }
 
@@ -439,27 +440,30 @@ h4{
 }
 
 .mobile-menu{
-    height:0px;
+    height: auto;
+    max-height: 0;
     width: calc(100% - 32px);
     align-self: stretch;
     position: absolute;
     top: 64px;
-    display: none;
-    padding: 20px 16px;
+    display: flex;
+    padding: 0 16px; /* Initially no padding */
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    gap: 40px;
+    gap: 0; /* Initially no gap */
     border-radius: 8px;
     background: #fff;
     z-index: 200;
     color: #000;
-    transition: height 0.3s ease-out;
+    overflow: hidden; /* Hide overflowing content */
+    transition: max-height 0.15s ease-out, padding 0.15s ease-out, gap 0.15s ease-out;
 }
 
 .mobile-menu.show {
-    display: flex; /* Show when the 'show' class is added */
-    height: auto;
+    max-height: 500px; /* A value large enough to show the content */
+    padding: 20px 16px; /* Padding when the menu is shown */
+    gap: 40px; /* Gap when the menu is shown */
 }
 
 
@@ -534,6 +538,7 @@ h4{
     }
 
     .hero{
+        height:90vh;
         padding-top: 20px;
         padding-left: 16px;
         padding-right: 16px;
@@ -561,18 +566,18 @@ h4{
     }
 
     .publications-container{
-        margin: 48px 16px;   
+        margin: 0px 16px;   
     }
 
     h1{
 
-        font-size: 32px;
+        font-size: 36px;
  
     }
     
     h2{
 
-        font-size: 32px;
+        font-size: 36px;
 
     }
 

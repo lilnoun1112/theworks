@@ -20,7 +20,7 @@ layout: 'base.njk'
         </p></div>
     </div>
 </div>
-<div class="sphere">
+<div class="sphere" style="display:none">
     <div class="textbox-container">
         <div class="titlebox"><h2>The Sphere</h2></div>
         <div class="textbox"><p>The Sphere is a sound-proof pod designed for one person, equipped with an omnidirectional microphone, loudspeaker system, and a vibro-acoustic chair. It uses spatial audio processing to deliver personalized sound treatments, optimizing the user’s acoustic profile in real-time to promote physical and emotional health. Treatment sessions last 15-40 minutes and can alleviate stress, regulate mood and sleep, and enhance cardiovascular functions, focus, creativity, and memory. User sessions are monitored and reported via an online app. The Sphere is 2.8 meters in diameter, weighs 1200 kg, and includes features like air regulation, light dimming, and door automation, with high acoustic insulation and a fully recyclable design.</p>
@@ -35,7 +35,7 @@ layout: 'base.njk'
 
     <div class="publications-container">
         <div class="titlebox">
-            <h2>Publications</h2>
+            <h2>Works</h2>
             <a class="link" href="#">view all<div class="href-arrow"></div></a>
         </div>
 <ul class="teaser-container">
@@ -44,8 +44,8 @@ layout: 'base.njk'
     {% if count < 3 %}
         <li style="list-style: none">
             <article class="teaser-card teaser-1">
-                <div class="teaser-image">
-                    <img src="{{ post.data.image }}">
+                <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover">
+                    <img src="/static/{{ post.data.image }}" style="display: none;">
                     <div class="tag">{{ post.data.tags }}</div>
                 </div>
                 <div class="teaser-textbox">
