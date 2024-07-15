@@ -1,24 +1,26 @@
 ---
     layout: 'base.njk'
 ---
-    <div class="section-wrapper">
-        <div class="feature-container">
-            <div class="feature-image" style="width: 3fr">
-                <img src="{{ image }}">
-                <div class="tag">{{ tags }}</div>
-            </div>
-            <div class="teaser-card" style="width: 4fr">
-                <div class="titlebox">
-                    <h2>{{ title }}</h2>
-                </div>
-                <div class="textbox">
-                    <p>{{ preview }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-wrapper">
-        <div class="blog-body">
-            {{ content | safe }}
-        </div>
-    </div>
+    <ul class="section-wrapper">
+    {% set count = 0 %}
+        {%- for post in collections.featured | reverse -%}
+            {% if count < 1 %}
+                <li style="list-style: none">
+                      <div class="feature-container">
+                            <div class="feature-image" style="width: 3fr">
+                               <img src="/static/{{ image }}">
+                               <div class="tag">{{ tags }}</div>
+                            </div>
+                            <div class="teaser-card" style="width: 4fr">
+                              <div class="titlebox">
+                                  <h2>{{ title }}</h2>
+                              </div>
+                             <div class="textbox">
+                                    <p>{{ preview }}</p>
+                              </div>
+                         </div>
+                     </div>
+                </li>
+    </ul>
+
+

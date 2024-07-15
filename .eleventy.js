@@ -15,6 +15,10 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  eleventyConfig.addCollection("publications", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/blog/*.md"); // Adjust the path as needed
+  });
+
 
     return {
         dir: {
