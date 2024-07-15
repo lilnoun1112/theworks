@@ -4,29 +4,29 @@ layout: 'base.njk'
 
 <div class="section-wrapper">
 
-                <div class="feature-container">
-                    <div class="feature-image" style="width: 3fr background-image: url('/static/{{ image }}'); background-size: cover">
-                        <div class="tag">{{ tags }}</div>
-                    </div>
-                    <div class="teaser-card" style="width: 4fr">
-                        <div class="titlebox">
-                            <h2>{{ title }}</h2>
-                        </div>
-                        <div class="textbox">
-                            <p>{{ preview }}</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="section-wrapper">
-                    <div class="blog-body">
-
-                        {{ content |safe }}
-
-                    </div>
-                </div>
-
+    <div class="feature-container">
+        <div class="feature-image" style="width: 3fr background-image: url('/static/{{ image }}'); background-size: cover">
+            <div class="tag">{{ tags }}</div>
+        </div>
+        <div class="teaser-card" style="width: 4fr">
+            <div class="titlebox">
+                <h2>{{ title }}</h2>
+            </div>
+            <div class="textbox">
+                <p>{{ preview }}</p>
+            </div>
+        </div>
+    </div>
 </div>
+<div class="section-wrapper">
+        <div class="blog-body">
+
+            {{ content |safe }}
+
+        </div>
+    </div>
+
+
 
 
 
