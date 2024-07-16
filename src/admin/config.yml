@@ -20,7 +20,19 @@ collections:
       - { name: "preview", label: "Preview", widget: "string" }
       - { name: "image", label: "Image", widget: "image" }
       - { name: "body", label: "Body", widget: "markdown" }
+      - { name: "fullarticle", label: "Full article URL", widget: "string" }
 
-
+  - name: "team"
+      label: "Team"
+      folder: "src/team"
+      create: true
+      slug: "{{slug}}"
+      fields:
+        - { name: "name", label: "Name", widget: "string" }
+        - { name: "position", label: "Position", widget: "string" }
+        - { name: "field", label: "Field", widget: "string" }
+        - { name: "affiliation", label: "Affiliation", widget: "string" }
+        - { name: "image", label: "Image", widget: "image" }
+        - { name: "cvlink", label: "CV URL", widget: "string" }
 
 

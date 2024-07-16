@@ -27,48 +27,84 @@ layout: 'base.njk'
         {%- endfor -%}
     </ul>
 
+
+  <div style="width: 100vw; max-width:1520px; overflow:auto">
+    <div class="filters-container">
+        <div class="spacer"></div>
+        <div class="button-filter selected" data-filter="all">All<div class="underline underline-selected"></div></div>
+        <div class="button-filter" data-filter="Projects">Projects<div class="underline"></div></div>
+        <div class="button-filter" data-filter="Preprints">Preprints<div class="underline"></div></div>
+        <div class="button-filter" style="width:115px;" "data-filter="Peer-reviewed">Peer-reviewed<div class="underline"></div></div>
+        <div class="button-filter" data-filter="Codes">Codes<div class="underline"></div></div>
+        <div class="button-filter" data-filter="Patents">Patents<div class="underline"></div></div>
+    </div>
+  </div>
+
 <div class="section-wrapper">
-
-        <div class="filters-container">
-            <div class="button-filter">All<div class="underline"></div></div>
-            <div class="button-filter">Projects<div class="underline"></div></div>
-            <div class="button-filter">Preprints<div class="underline"></div></div>
-            <div class="button-filter">Peer-reviewed<div class="underline"></div></div>
-            <div class="button-filter">Codes<div class="underline"></div></div>
-            <div class="button-filter">Patents<div class="underline"></div></div>
-        </div>
-
-<div class="publications-container">
-  {% set rowCount = 0 %}
-  {% for post in collections.publications | reverse %}
-    {% if rowCount % 3 == 0 %}
-      {% if rowCount > 0 %}
-        </ul>
-      {% endif %}
-      <ul class="teaser-container blog">
-    {% endif %}
-    
-    <li class="blog-card">
-      <article class="teaser-card">
-        <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover">
-          <img src="/static/{{ post.data.image }}" style="display: none;">
-          <div class="tag">{{ post.data.tags }}</div>
-        </div>
-        <div class="teaser-textbox">
-            <div class="teas-txt-inner">
-                <h3>{{ post.data.title }}</h3>
-                <p>{{ post.data.preview }}</p>
-            </div>
-                <a href="{{ post.url }}" class="button-card">read more<div class="button-arrow"></div></a>
-        </div>
-      </article>
-    </li>
-    
-    {% set rowCount = rowCount + 1 %}
-  {% endfor %}
-  
-  </ul> <!-- Close the last ul if there are any posts -->
+    <div class="publications-container">
+        {% set rowCount = 0 %}
+        {% for post in collections.publications | reverse %}
+            {% if rowCount % 3 == 0 %}
+                {% if rowCount > 0 %}
+                    </ul>
+                {% endif %}
+                <ul class="teaser-container blog">
+            {% endif %}
+            
+            <li class="blog-card" data-tags="{{ post.data.tags }}">
+                <article class="teaser-card">
+                    <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover">
+                        <img src="/static/{{ post.data.image }}" style="display: none;">
+                        <div class="tag">{{ post.data.tags }}</div>
+                    </div>
+                    <div class="teaser-textbox">
+                        <div class="teas-txt-inner">
+                            <h3>{{ post.data.title }}</h3>
+                            <p>{{ post.data.preview }}</p>
+                        </div>
+                        <a href="{{ post.url }}" class="button-card">read more<div class="button-arrow"></div></a>
+                    </div>
+                </article>
+            </li>
+            
+            {% set rowCount = rowCount + 1 %}
+        {% endfor %}
+        
+        </ul> <!-- Close the last ul if there are any posts -->
+    </div>
 </div>
 
-</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const filterButtons = document.querySelectorAll('.button-filter');
+        const blogCards = document.querySelectorAll('.blog-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const filter = button.getAttribute('data-filter');
+
+                // Remove selected class and underline-selected from all buttons and their underlines
+                filterButtons.forEach(btn => {
+                    btn.classList.remove('selected');
+                    btn.querySelector('.underline').classList.remove('underline-selected');
+                });
+
+                // Add selected class to the clicked button and underline-selected to its underline
+                button.classList.add('selected');
+                button.querySelector('.underline').classList.add('underline-selected');
+
+                // Filter the blog cards
+                blogCards.forEach(card => {
+                    const tags = card.getAttribute('data-tags').split(',');
+                    if (filter === 'all' || tags.includes(filter)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    });
+</script>
+
 <script src="../js/boxheight.js"></script>

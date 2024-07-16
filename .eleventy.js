@@ -19,6 +19,10 @@ module.exports = function(eleventyConfig) {
     return collectionApi.getFilteredByGlob("src/blog/*.md"); // Adjust the path as needed
   });
 
+  eleventyConfig.addCollection("team", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/team/*.md"); // Adjust the path as needed
+  });
+
 
     return {
         dir: {

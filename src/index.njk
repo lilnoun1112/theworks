@@ -36,11 +36,11 @@ layout: 'base.njk'
     <div class="publications-container">
         <div class="titlebox">
             <h2>Works</h2>
-            <a class="link" href="#">view all<div class="href-arrow"></div></a>
+            <a class="link" href="/work">view all<div class="href-arrow"></div></a>
         </div>
 <ul class="teaser-container">
 {% set count = 0 %}
-{%- for post in collections.featured | reverse -%}
+{%- for post in collections.publications | reverse -%}
     {% if count < 3 %}
         <li style="list-style: none">
             <article class="teaser-card teaser-1">
