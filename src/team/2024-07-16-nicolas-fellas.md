@@ -1,11 +1,9 @@
 ---
-name: Amira Val Baker
-position: Research Scientist
-field: Physics and Mathematics
+name: Bashar M Farran
+position: Collaborating Scientist
+field: Neurolinguistics
 affiliation: The Works Research Institute
-image: /img/avb.jpg
-cvlink: https://www.linkedin.com/in/amira-val-baker-phd-47047123/
+image: /img/bf.jpg
+cvlink: https://www.researchgate.net/profile/Bashar-Farran
+cvfile: /static/cvs/BasharFarran_CV2024 - Bashar Farran.pdf
 ---
-
-
-
