@@ -35,10 +35,10 @@ layout: 'base.njk'
                         </div>
                         <div class="cvcontainer">
                             {% if post.data.cvlink %}
-                                <a class="link" href="{{ post.data.cvlink }}">view cv<div class="href-arrow"></div></a>
+                                <a class="link" href="{{ post.data.cvlink }}" target="_blank">view cv<div class="href-arrow"></div></a>
                             {% endif %}
                             {% if post.data.cvfile %}
-                                <a class="link" href="{{ post.data.cvfile }}">download cv<div class="href-arrow"></div></a>
+                                <a class="link" href="{{ post.data.cvfile }}" target="_blank">download cv<div class="href-arrow"></div></a>
                             {% endif %}
                         </div>
                     </div>
