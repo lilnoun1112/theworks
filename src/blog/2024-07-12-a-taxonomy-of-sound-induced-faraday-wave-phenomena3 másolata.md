@@ -1,10 +1,11 @@
 ---
 title: A Taxonomy of Sound-Induced Faraday Wave Phenomena
 tags: Preprints
-featured: true
+featured: false
 preview: Nonlinear standing waves known as Faraday waves are formed in vibrating
   liquids enclosed by a container.
 image: /img/faraday.jpg
+fullarticle: https://osf.io/hvcqx/download/
 ---
 **Authors:** Rona Geffen, Amira K. F. Val Baker, Daniela Gentile, Paul Oomen.
 
@@ -12,6 +13,4 @@ image: /img/faraday.jpg
 
 **Disciplines:** Fluid Dynamics Physics Physical Sciences and Mathematics Statistical, Nonlinear, and Soft Matter Physics
 
-**Key words:** cymascope, cymatics, Faraday waves, pattern, morphology, resonant phenomena, taxonomy, vibrational modes\
-\
-[Read full article](https://osf.io/hvcqx/download/)
+**Key words:** cymascope, cymatics, Faraday waves, pattern, morphology, resonant phenomena, taxonomy, vibrational modes[](https://osf.io/hvcqx/download/)
