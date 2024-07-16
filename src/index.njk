@@ -49,9 +49,11 @@ layout: 'base.njk'
                     <div class="tag">{{ post.data.tags }}</div>
                 </div>
                 <div class="teaser-textbox">
-                    <h3>{{ post.data.title }}</h3>
-                    <p>{{ post.data.preview }}</p>
-                    <a href="{{ post.url }}" class="button-card">read more<div class="button-arrow"></div></a>
+                    <div class="teas-txt-inner">
+                        <h3>{{ post.data.title }}</h3>
+                        <p>{{ post.data.preview }}</p>
+                        <a href="{{ post.url }}" class="button-card">read more<div class="button-arrow"></div></a>
+                    </div>
                 </div>
             </article>
         </li>
@@ -62,7 +64,7 @@ layout: 'base.njk'
 
     </div>
 
-
+<script src="../js/boxheight.js"></script>
 
 </div>
 
