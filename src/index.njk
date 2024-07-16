@@ -44,7 +44,7 @@ layout: 'base.njk'
     {% if count < 3 %}
         <li style="list-style: none">
             <article class="teaser-card teaser-1">
-                <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover">
+                <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover; background-position: center">
                     <img src="/static/{{ post.data.image }}" style="display: none;">
                     <div class="tag">{{ post.data.tags }}</div>
                 </div>
