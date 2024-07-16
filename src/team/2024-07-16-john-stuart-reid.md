@@ -1,11 +1,9 @@
 ---
-name: Amira Val Baker
-position: Research Scientist
-field: Physics and Mathematics
+name: Nicolas Fellas
+position: Technical Manager
+field: Audio Engineering
 affiliation: The Works Research Institute
-image: /img/avb.jpg
-cvlink: https://www.linkedin.com/in/amira-val-baker-phd-47047123/
+image: /img/nf.jpg
+cvlink: ""
+cvfile: /static/cvs/CV NFellas 2024 - Nicolas Fellas.pdf
 ---
-
-
-
