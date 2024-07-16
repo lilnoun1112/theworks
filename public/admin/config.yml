@@ -34,5 +34,6 @@ collections:
         - { name: "affiliation", label: "Affiliation", widget: "string" }
         - { name: "image", label: "Image", widget: "image" }
         - { name: "cvlink", label: "CV URL", widget: "string" }
+        - { name: "cvfile", label: "CV Upload", widget: "file", media_folder: "/static/cvs"}
 
 
