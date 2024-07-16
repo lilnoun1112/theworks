@@ -32,7 +32,7 @@ collections:
       - { name: "field", label: "Field", widget: "string" }
       - { name: "affiliation", label: "Affiliation", widget: "string" }
       - { name: "image", label: "Image", widget: "image" }
-      - { name: "cvlink", label: "CV URL", widget: "string" required: false}
+      - { name: "cvlink", label: "CV URL", widget: "string", required: false}
       - { name: "cvfile", label: "CV Upload", widget: "file", media_folder: "/static/cvs", required: false}
 
 
