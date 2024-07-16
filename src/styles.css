@@ -185,6 +185,13 @@ a{
     margin-bottom: 120px;
 }
 
+.cvcontainer{
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .section-wrapper{
     width:auto;
     display: flex;
