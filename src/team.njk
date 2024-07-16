@@ -34,8 +34,12 @@ layout: 'base.njk'
                             <p>{{ post.data.affiliation }}</p>
                         </div>
                         <div class="cvcontainer">
-                            <a class="link" href="{{ post.data.cvlink }}">view cv<div class="href-arrow"></div></a>
-                            <a class="link" href="{{ post.data.cvfile }}">download cv<div class="href-arrow"></div></a>
+                            {% if post.data.cvlink %}
+                                <a class="link" href="{{ post.data.cvlink }}">view cv<div class="href-arrow"></div></a>
+                            {% endif %}
+                            {% if post.data.cvfile %}
+                                <a class="link" href="{{ post.data.cvfile }}">download cv<div class="href-arrow"></div></a>
+                            {% endif %}
                         </div>
                     </div>
                 </article>
