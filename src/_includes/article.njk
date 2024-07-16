@@ -23,7 +23,10 @@ layout: 'base.njk'
 
             {{ content |safe }}
 
-            <a href="{{ fullarticle }}" class="button-card">Download full article<div class="button-arrow"></div></a>
+            {% if fullarticle %}
+                <a href="{{ fullarticle }}" class="button-card">Download full article<div class="button-arrow"></div></a>
+            {% endif %}
+            
 
         </div>
     </div>
