@@ -5,7 +5,7 @@ featured: true
 preview: "The Sphere is an acoustic entrainment system that guides users to
   improved homeostasis. "
 image: /img/sphere6.jpg
-fullarticle: https://osf.io/hvcqx/download/
+fullarticle: ""
 ---
 The Sphere is a sound-proof spherical pod for one person to sit inside, with integrated omnidirectional microphone and loudspeaker system, vibro-acoustic chair and on-board spatial audio processing and data processing functions. 
 
