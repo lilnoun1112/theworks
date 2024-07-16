@@ -1,11 +1,8 @@
 ---
-name: Amira Val Baker
-position: Research Scientist
-field: Physics and Mathematics
-affiliation: The Works Research Institute
-image: /img/avb.jpg
-cvlink: https://www.linkedin.com/in/amira-val-baker-phd-47047123/
+name: Christoph Braun
+position: Collaborating Scientist
+field: Neurobiology
+affiliation: University of Tübingen, Germany.
+image: /img/cb.jpg
+cvlink: https://ieeexplore.ieee.org/author/37416971700
 ---
-
-
-

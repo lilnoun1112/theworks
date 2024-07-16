@@ -1,11 +1,8 @@
 ---
-name: Amira Val Baker
-position: Research Scientist
-field: Physics and Mathematics
+name: Daniela Gentile
+position: Research Assistant
+field: Biology, Sonic Activism, Ecology of Listening
 affiliation: The Works Research Institute
-image: /img/avb.jpg
-cvlink: https://www.linkedin.com/in/amira-val-baker-phd-47047123/
+image: /img/dg.jpg
+cvlink: https://drive.google.com/open?id=16Y1tjDi2Krmr8gF42yeDie9RsVjBoR5Z
 ---
-
-
-

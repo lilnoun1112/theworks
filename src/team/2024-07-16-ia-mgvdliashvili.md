@@ -1,11 +1,9 @@
 ---
-name: Amira Val Baker
-position: Research Scientist
-field: Physics and Mathematics
-affiliation: The Works Research Institute
-image: /img/avb.jpg
-cvlink: https://www.linkedin.com/in/amira-val-baker-phd-47047123/
+name: John Stuart Reid
+position: Associate Researcher
+field: Acoustic Physics
+affiliation: Sonic Age Ltd
+image: /img/jsr.jpg
+cvlink: ""
+cvfile: /static/cvs/John Stuart Reid short bio - John Stuart Reid.pdf
 ---
-
-
-
