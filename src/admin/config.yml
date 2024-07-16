@@ -21,7 +21,6 @@ collections:
       - { name: "image", label: "Image", widget: "image" }
       - { name: "body", label: "Body", widget: "markdown" }
       - { name: "fullarticle", label: "Full article URL", widget: "string" }
-
   - name: "team"
       label: "Team"
       folder: "src/team"
