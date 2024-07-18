@@ -58,11 +58,21 @@ layout: 'base.njk'
 
         // Check the screen width
         if (window.innerWidth >= breakpoint) {
+            console.log('Screen width is above breakpoint, loading script...');
             // Create the script element
             var script = document.createElement('script');
             script.src = '../js/boxheight.js';
+            script.onload = function() {
+                console.log('Script loaded successfully.');
+            };
+            script.onerror = function() {
+                console.error('Error loading script.');
+            };
             document.head.appendChild(script);
+        } else {
+            console.log('Screen width is below breakpoint, not loading script.');
         }
     });
 </script>
+
 
