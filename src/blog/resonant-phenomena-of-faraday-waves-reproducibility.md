@@ -1,6 +1,6 @@
 ---
 title: "Resonant Phenomena of Faraday Waves: Reproducibility"
-tags: Preprints
+tags: Preprint
 featured: false
 preview: Standing waves formed on a vibrating fluid layer when a critical
   amplitude is applied are known as Faraday waves.

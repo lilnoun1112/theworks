@@ -1,6 +1,6 @@
 ---
 title: Experimental Investigation of Deviations in Sound Reproduction
-tags: Preprints
+tags: Preprint
 featured: false
 preview: Sound reproduction is the electro-mechanical re-creation of sound waves
   using analogue and digital audio equipment.

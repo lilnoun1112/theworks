@@ -1,6 +1,6 @@
 ---
 title: Sound Wave Propagation on a Chladni Plate
-tags: Preprints
+tags: Preprint
 featured: false
 preview: In general sound waves propagate radially outwards from a point source.
 image: /img/chladniplate.jpg

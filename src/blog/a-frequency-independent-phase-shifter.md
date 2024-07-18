@@ -1,6 +1,6 @@
 ---
 title: A Frequency Independent Phase Shifter
-tags: Preprints
+tags: Preprint
 featured: false
 preview: A frequency-independent phase shift is determined such that two phase
   shifted versions of a signal can be summed whereby the resulting amplitude

@@ -1,7 +1,7 @@
 ---
 title: Deviations in Sound Waves Associated with Physiological and Psychological
   States
-tags: Preprints
+tags: Preprint
 featured: false
 preview: Sound waves are known to be affected by the presence of a human subject
   in the acoustic environment.

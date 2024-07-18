@@ -1,6 +1,6 @@
 ---
 title: Sphere
-tags: Projects
+tags: Project
 featured: true
 preview: "The Sphere is an acoustic entrainment system that guides users to
   improved homeostasis. "

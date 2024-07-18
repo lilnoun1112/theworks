@@ -1,7 +1,7 @@
 ---
 title: Effects of Sound Immersion on In Vitro Blood Cells
-tags: Preprints
-featured: "false"
+tags: Preprint
+featured: false
 preview: The effects of sound and mechanical vibrations on blood flow and in
   vitro and in vivo blood cells were previously reported in various studies.
 image: /img/soundimmersion.jpg
