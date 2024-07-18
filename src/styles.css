@@ -329,7 +329,6 @@ p{
     align-items: flex-start;
     gap: 2px;
     flex: 1 0 0;
-    width: calc((100% - 4px) / 3);
 }
 
 .blog-card{
