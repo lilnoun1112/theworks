@@ -711,11 +711,17 @@ h4{
 
     .blog-body{
         padding: 16px 20px;
+        width: calc(100% - 32px);
       }
     
     .spacer{
         width:16px;
     }
+
+    .list{
+        width: 100%;
+    
+      }
     
 
 }
