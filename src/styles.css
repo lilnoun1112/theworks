@@ -570,6 +570,7 @@ h4{
 
   .blog-body{
     display: flex;
+    width: 100%;
     max-width: 810px;
     padding: 28px 40px;
     margin-left: auto;
