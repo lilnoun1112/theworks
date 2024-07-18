@@ -54,6 +54,7 @@ a{
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
+    z-index: 200;
 }
 
 .buttons-container{
@@ -579,6 +580,12 @@ h4{
     align-self: stretch;
     border-radius: 8px;
     background:  #FFF;
+  }
+
+  .list{
+    list-style: none;
+    width: calc((100% - 4px) / 3);
+
   }
 
 @media only screen and (max-width:880px){

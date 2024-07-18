@@ -42,7 +42,7 @@ layout: 'base.njk'
 {% set count = 0 %}
 {%- for post in collections.publications | reverse -%}
     {% if count < 3 %}
-        <li style="list-style: none">
+        <li class="list">
             <article class="teaser-card teaser-1">
                 <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover; background-position: center">
                     <img src="/static/{{ post.data.image }}" style="display: none;">
@@ -64,7 +64,21 @@ layout: 'base.njk'
 
     </div>
 
-<script src="../js/boxheight.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Define the breakpoint below which the script should not be loaded
+        const breakpoint = 768; // For example, 768px for tablets and above
+
+        // Check the screen width
+        if (window.innerWidth >= breakpoint) {
+            // Create the script element
+            var script = document.createElement('script');
+            script.src = '../js/boxheight.js';
+            document.head.appendChild(script);
+        }
+    });
+</script>
+
 
 </div>
 

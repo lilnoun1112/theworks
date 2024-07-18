@@ -108,4 +108,17 @@ layout: 'base.njk'
     });
 </script>
 
-<script src="../js/boxheight.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Define the breakpoint below which the script should not be loaded
+        const breakpoint = 768; // For example, 768px for tablets and above
+
+        // Check the screen width
+        if (window.innerWidth >= breakpoint) {
+            // Create the script element
+            var script = document.createElement('script');
+            script.src = '../js/boxheight.js';
+            document.head.appendChild(script);
+        }
+    });
+</script>

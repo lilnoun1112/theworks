@@ -3,7 +3,6 @@ title: Harmonic Coherence - The Works
 layout: 'base.njk'
 ---
 
-<script src="../js/boxheight.js"></script>
 <div class="hero team">
     <div class="textbox-container">
         <div class="titlebox"><h1>The WRI Team</h1></div>
@@ -51,3 +50,19 @@ layout: 'base.njk'
         </ul> <!-- Close the last ul if there are any posts -->
     </div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Define the breakpoint below which the script should not be loaded
+        const breakpoint = 768; // For example, 768px for tablets and above
+
+        // Check the screen width
+        if (window.innerWidth >= breakpoint) {
+            // Create the script element
+            var script = document.createElement('script');
+            script.src = '../js/boxheight.js';
+            document.head.appendChild(script);
+        }
+    });
+</script>
+
