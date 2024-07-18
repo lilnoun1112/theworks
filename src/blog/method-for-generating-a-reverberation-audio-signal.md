@@ -1,7 +1,7 @@
 ---
 title: Method for Generating a Reverberation Audio Signal
 tags: Patent
-featured: "false"
+featured: false
 preview: A method for generating a reverberation audio signal associated with a
   virtual object.
 image: /img/patent4.jpg
