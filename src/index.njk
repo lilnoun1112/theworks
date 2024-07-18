@@ -65,18 +65,40 @@ layout: 'base.njk'
     </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Define the breakpoint below which the script should not be loaded
-        const breakpoint = 768; // For example, 768px for tablets and above
+    // Function to dynamically load the script
+    function loadBoxHeightScript() {
+        var script = document.createElement('script');
+        script.src = '../js/boxheight.js';
+        script.onload = function() {
+            console.log('Script loaded successfully.');
+            // Ensure the functions from the script are called
+            adjustTextBoxHeights(); // Initial adjustment
+            window.addEventListener('resize', adjustTextBoxHeights); // Adjust on window resize
+        };
+        script.onerror = function() {
+            console.error('Error loading script.');
+        };
+        document.head.appendChild(script);
+    }
+
+    // Function to check the screen width and load the script if the condition is met
+    function checkAndLoadScript() {
+        const breakpoint = 880; // Define the breakpoint
 
         // Check the screen width
         if (window.innerWidth >= breakpoint) {
-            // Create the script element
-            var script = document.createElement('script');
-            script.src = '../js/boxheight.js';
-            document.head.appendChild(script);
+            console.log('Screen width is above breakpoint, loading script...');
+            loadBoxHeightScript();
+        } else {
+            console.log('Screen width is below breakpoint, not loading script.');
         }
-    });
+    }
+
+    // Run the check when the document is ready
+    document.addEventListener('DOMContentLoaded', checkAndLoadScript);
+
+    // Run the check on window resize
+    window.addEventListener('resize', checkAndLoadScript);
 </script>
 
 
