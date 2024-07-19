@@ -596,17 +596,9 @@ h4{
     .team-card{
         flex: 0 0 calc(33.3% - 2px);
     }
-
-    .team{
-        background-image: url(images/team.jpg);
-    }
 }
 
 @media only screen and (max-width:880px){
-    .team{
-        background-image: url(images/team.jpg) !important;
-    }
-
     .buttons-container{
         display: none;
     }
@@ -641,7 +633,10 @@ h4{
         background-image: url(images/sphere11-mobile.jpg);
     }
 
-  
+    .team{
+        background-image: url(images/team-mobile.jpg);
+        background-position: center bottom;
+    }
     
     .section-wrapper{
         padding: 0px 16px;
@@ -745,9 +740,5 @@ h4{
 
     .team-card{
         flex: 0 0 100%;
-    }
-
-    .team{
-        background-image: url(images/team-mobile.jpg);
     }
 }
