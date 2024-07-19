@@ -310,7 +310,6 @@ p{
 
 .teaser-container{
     display: flex;
-    flex-wrap: wrap;
     max-width: 1440px;
     align-items: flex-start;
     gap: 2px;
