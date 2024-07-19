@@ -633,9 +633,7 @@ h4{
         background-image: url(images/sphere11-mobile.jpg);
     }
 
-    .team{
-        background-image: url(images/team-mobile.jpg);
-    }
+  
     
     .section-wrapper{
         padding: 0px 16px;
@@ -739,5 +737,9 @@ h4{
 
     .team-card{
         flex: 0 0 100%;
+    }
+
+    .team{
+        background-image: url(images/team-mobile.jpg);
     }
 }
