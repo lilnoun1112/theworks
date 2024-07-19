@@ -312,6 +312,7 @@ p{
     display: flex;
     max-width: 1440px;
     align-items: flex-start;
+    flex-wrap: wrap;
     gap: 2px;
     align-self: stretch;
     padding: 0px;

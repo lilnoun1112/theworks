@@ -13,44 +13,34 @@ layout: 'base.njk'
 
 <div class="section-wrapper">
     <div class="publications-container">
-        {% set rowCount = 0 %}
-        {% set itemsPerRow = 5 %}
-        {% for post in collections.team %}
-            {% if rowCount % itemsPerRow == 0 %}
-                {% if rowCount > 0 %}
-                    </ul>
-                {% endif %}
-                <ul class="teaser-container blog">
-            {% endif %}
-            
-            <li class="team-card">
-                <article class="teaser-card">
-                    <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover; background-position: center bottom"></div>
-                    <div class="teaser-textbox">
-                        <div class="teas-txt-inner">
-                            <h3>{{ post.data.name }}</h3>
-                            <h4>{{ post.data.position }}</h4>
-                            <p>{{ post.data.field }}</p>
-                            <p>{{ post.data.affiliation }}</p>
+        <ul class="teaser-container blog">
+            {% for post in collections.team %}
+                <li class="team-card">
+                    <article class="teaser-card">
+                        <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover; background-position: center bottom"></div>
+                        <div class="teaser-textbox">
+                            <div class="teas-txt-inner">
+                                <h3>{{ post.data.name }}</h3>
+                                <h4>{{ post.data.position }}</h4>
+                                <p>{{ post.data.field }}</p>
+                                <p>{{ post.data.affiliation }}</p>
+                            </div>
+                            <div class="cvcontainer">
+                                {% if post.data.cvlink %}
+                                    <a class="link" href="{{ post.data.cvlink }}" target="_blank">view cv<div class="href-arrow"></div></a>
+                                {% endif %}
+                                {% if post.data.cvfile %}
+                                    <a class="link" href="{{ post.data.cvfile }}" target="_blank">download cv<div class="href-arrow"></div></a>
+                                {% endif %}
+                            </div>
                         </div>
-                        <div class="cvcontainer">
-                            {% if post.data.cvlink %}
-                                <a class="link" href="{{ post.data.cvlink }}" target="_blank">view cv<div class="href-arrow"></div></a>
-                            {% endif %}
-                            {% if post.data.cvfile %}
-                                <a class="link" href="{{ post.data.cvfile }}" target="_blank">download cv<div class="href-arrow"></div></a>
-                            {% endif %}
-                        </div>
-                    </div>
-                </article>
-            </li>
-            
-            {% set rowCount = rowCount + 1 %}
-        {% endfor %}
-        
-        </ul> <!-- Close the last ul if there are any posts -->
+                    </article>
+                </li>
+            {% endfor %}
+        </ul>
     </div>
 </div>
+
 
 
 <script>
@@ -88,28 +78,6 @@ layout: 'base.njk'
 
     // Run the check on window resize
     window.addEventListener('resize', checkAndLoadScript);
-</script>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    function adjustItemsPerRow() {
-        const screenWidth = window.innerWidth;
-        let itemsPerRow = 5; // Default to 5 items per row
-
-        if (screenWidth < 880 && screenWidth >= 450) {
-            itemsPerRow = 2; // Between 880px and 450px, 2 items per row
-        } else if (screenWidth < 450) {
-            itemsPerRow = 1; // Below 450px, 1 item per row
-        }
-
-        // Add logic here if you need to re-render or re-calculate something based on itemsPerRow
-        console.log('Items per row:', itemsPerRow);
-    }
-
-    window.addEventListener('resize', adjustItemsPerRow);
-    adjustItemsPerRow(); // Initial call
-});
-
 </script>
 
 
