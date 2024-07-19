@@ -631,6 +631,7 @@ h4{
         padding-left: 16px;
         padding-right: 16px;
         background-image: url(images/sphere11-mobile.jpg);
+        background-position: center;
     }
 
     .team{
