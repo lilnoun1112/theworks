@@ -14,8 +14,9 @@ layout: 'base.njk'
 <div class="section-wrapper">
     <div class="publications-container">
         {% set rowCount = 0 %}
+        {% set itemsPerRow = 5 %}
         {% for post in collections.team %}
-            {% if rowCount % 5 == 0 %}
+            {% if rowCount % itemsPerRow == 0 %}
                 {% if rowCount > 0 %}
                     </ul>
                 {% endif %}
@@ -50,6 +51,7 @@ layout: 'base.njk'
         </ul> <!-- Close the last ul if there are any posts -->
     </div>
 </div>
+
 
 <script>
     // Function to dynamically load the script

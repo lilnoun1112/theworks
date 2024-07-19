@@ -700,7 +700,7 @@ h4{
     }
 
     .team-card{
-        width: 100%;
+        width: calc((100% - 2px) / 2);
     }
 
     .blog{
@@ -728,5 +728,9 @@ h4{
 @media only screen and (max-width:450px){
     .teaser-container{
         flex-direction: column;
+    }
+
+    .team-card{
+        width: 100%;
     }
 }
