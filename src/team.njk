@@ -90,5 +90,18 @@ layout: 'base.njk'
     window.addEventListener('resize', checkAndLoadScript);
 </script>
 
+document.addEventListener('DOMContentLoaded', function() {
+    function adjustItemsPerRow() {
+        const screenWidth = window.innerWidth;
+        const itemsPerRow = screenWidth > 880 ? 5 : (screenWidth >= 450 ? 2 : 1);
+
+        // You might want to reload or re-render your content here if necessary
+    }
+
+    window.addEventListener('resize', adjustItemsPerRow);
+    adjustItemsPerRow(); // Initial call
+});
+
+
 
 
