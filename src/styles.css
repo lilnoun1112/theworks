@@ -596,9 +596,17 @@ h4{
     .team-card{
         flex: 0 0 calc(33.3% - 2px);
     }
+
+    .team{
+        background-image: url(images/team.jpg);
+    }
 }
 
 @media only screen and (max-width:880px){
+    .team{
+        background-image: url(images/team.jpg);
+    }
+
     .buttons-container{
         display: none;
     }
