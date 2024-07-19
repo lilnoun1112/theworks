@@ -609,10 +609,6 @@ h4{
         padding-bottom: 80px;
     }
 
-    .teaser-container{
-        flex-direction: column;
-    }
-
     .teaser-card{
         width: 100%;
 ;
@@ -728,3 +724,9 @@ h4{
 
 }
 
+
+@media only screen and (max-width:450px){
+    .teaser-container{
+        flex-direction: column;
+    }
+}
