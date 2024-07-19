@@ -310,8 +310,9 @@ p{
 
 .teaser-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     max-width: 1440px;
-    justify-content:left;
     align-items: flex-start;
     gap: 2px;
     align-self: stretch;
@@ -340,7 +341,8 @@ p{
 
 .team-card{
     list-style: none;
-    width: calc((100% - 8px) / 5);
+    flex: 0 0 19%; /* Five cards per row */
+    box-sizing: border-box;
     margin-bottom: 16px;
 }
 
@@ -700,7 +702,7 @@ h4{
     }
 
     .team-card{
-        width: calc((100% - 2px) / 2);
+        flex: 0 0 48%;
     }
 
     .blog{
@@ -731,6 +733,6 @@ h4{
     }
 
     .team-card{
-        width: 100%;
+        flex: 0 0 100%;
     }
 }

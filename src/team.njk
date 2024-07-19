@@ -94,14 +94,22 @@ layout: 'base.njk'
 document.addEventListener('DOMContentLoaded', function() {
     function adjustItemsPerRow() {
         const screenWidth = window.innerWidth;
-        const itemsPerRow = screenWidth > 880 ? 5 : (screenWidth >= 450 ? 2 : 1);
+        let itemsPerRow = 5; // Default to 5 items per row
 
-        // You might want to reload or re-render your content here if necessary
+        if (screenWidth < 880 && screenWidth >= 450) {
+            itemsPerRow = 2; // Between 880px and 450px, 2 items per row
+        } else if (screenWidth < 450) {
+            itemsPerRow = 1; // Below 450px, 1 item per row
+        }
+
+        // Add logic here if you need to re-render or re-calculate something based on itemsPerRow
+        console.log('Items per row:', itemsPerRow);
     }
 
     window.addEventListener('resize', adjustItemsPerRow);
     adjustItemsPerRow(); // Initial call
 });
+
 </script>
 
 
