@@ -17,7 +17,7 @@ layout: 'base.njk'
             {% for post in collections.team %}
                 <li class="team-card">
                     <article class="teaser-card">
-                        <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover; background-position: center bottom"></div>
+                        <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover; background-position: center"></div>
                         <div class="teaser-textbox">
                             <div class="teas-txt-inner">
                                 <h3>{{ post.data.name }}</h3>
@@ -62,7 +62,7 @@ layout: 'base.njk'
 
     // Function to check the screen width and load the script if the condition is met
     function checkAndLoadScript() {
-        const breakpoint = 450; // Define the breakpoint
+        const breakpoint = 500; // Define the breakpoint
 
         // Check the screen width
         if (window.innerWidth >= breakpoint) {

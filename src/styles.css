@@ -741,7 +741,7 @@ h4{
 }
 
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:500px){
     .teaser-container{
         flex-direction: column;
     }
