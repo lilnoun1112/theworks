@@ -14,7 +14,9 @@ a{
 .link{    
     cursor: pointer;
     color: #7E878B;
-    font-family: "Museo Sans";
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -259,17 +261,13 @@ a{
     gap: 32px;
 }
 
-@font-face {
-    font-family: Museo Sans;
-    src: url(fonts/museosans700.ttf);
-  }
-
 h1{
     color: #000;
-    font-family: "Museo Sans";
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 40px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
     margin: 0px;
     height: 100%;
@@ -277,10 +275,11 @@ h1{
 
 h2{
     color: #000;
-    font-family: "Museo Sans";
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 40px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
     margin: 0px;
     height: 100%;
@@ -369,20 +368,22 @@ p{
 
 h3{
     color: #000;
-    font-family: "Museo Sans";
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 28px;
     font-style: normal;
-    font-weight: 600;
     line-height: 130%; 
     margin: 0px;
 }
 
 h4{
     color: #000;
-    font-family: "Museo Sans";
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 22px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
     margin: 0px;
 }
@@ -409,10 +410,11 @@ h4{
     border-radius: 8px;
     background: #000;
     color: #fff;
-    font-family: "Museo Sans";
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
 }
 
@@ -439,10 +441,10 @@ h4{
     background-color: #000;
     border-radius: 8px;
     color: #fff;
-    font-family: "Museo Sans";
-    font-size: 16px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
     font-style: normal;
-    font-weight: 600;
+    font-size: 16px;
     text-decoration: none;
     line-height: normal;
     text-transform: uppercase;
