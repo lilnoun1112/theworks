@@ -43,37 +43,28 @@ layout: 'base.njk'
 
 <div class="section-wrapper">
   <div class="publications-container">
-    {% set rowCount = 0 %}
-    {% for post in collections.publications | reverse %}
-      {% if rowCount % 3 == 0 %}
-        {% if rowCount > 0 %}
-          </ul>
-        {% endif %}
-        <ul class="teaser-container blog">
-      {% endif %}
-      
-      <li class="blog-card" data-tags="{{ post.data.tags }}">
-        <article class="teaser-card">
-          <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover; background-position: center">
-            <img src="/static/{{ post.data.image }}" style="display: none;">
-            <div class="tag">{{ post.data.tags }}</div>
-          </div>
-          <div class="teaser-textbox">
-            <div class="teas-txt-inner">
-              <h3>{{ post.data.title }}</h3>
-              <p>{{ post.data.preview }}</p>
+    <ul class="teaser-container blog">
+      {% for post in collections.publications | reverse %}
+        <li class="blog-card" data-tags="{{ post.data.tags }}">
+          <article class="teaser-card">
+            <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover; background-position: center">
+              <img src="/static/{{ post.data.image }}" style="display: none;">
+              <div class="tag">{{ post.data.tags }}</div>
             </div>
-            <a href="{{ post.url }}" class="button-card">read more<div class="button-arrow"></div></a>
-          </div>
-        </article>
-      </li>
-      
-      {% set rowCount = rowCount + 1 %}
-    {% endfor %}
-    
+            <div class="teaser-textbox">
+              <div class="teas-txt-inner">
+                <h3>{{ post.data.title }}</h3>
+                <p>{{ post.data.preview }}</p>
+              </div>
+              <a href="{{ post.url }}" class="button-card">read more<div class="button-arrow"></div></a>
+            </div>
+          </article>
+        </li>
+      {% endfor %}
     </ul> <!-- Close the last ul if there are any posts -->
   </div>
 </div>
+
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {

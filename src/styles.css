@@ -330,7 +330,7 @@ p{
 
 .blog-card{
     list-style: none;
-    width: calc((100% - 4px) / 3);
+    flex: 0 0 calc(33.3% - 4px);
     margin-bottom: 16px;
 }
 
@@ -595,6 +595,12 @@ h4{
     .team-card{
         flex: 0 0 calc(33.3% - 2px);
     }
+
+    .blog-card{
+        list-style: none;
+        flex: 0 0 calc(33.3% - 4px);
+        margin-bottom: 16px;
+    }
 }
 
 @media only screen and (max-width:880px){
@@ -704,7 +710,9 @@ h4{
     }
 
     .blog-card{
-        width: 100%;
+        list-style: none;
+        flex: 0 0 calc(50% - 2px);
+        margin-bottom: 16px;
     }
 
     .team-card{
@@ -741,5 +749,12 @@ h4{
     .team-card{
         flex: 0 0 100%;
         width: 100% !important;
+    }
+
+    .blog-card{
+        list-style: none;
+        flex: 0 0 100%;
+        width: 100% !important;
+        margin-bottom: 16px;
     }
 }
