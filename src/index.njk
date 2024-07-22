@@ -2,35 +2,29 @@
 title: Harmonic Coherence - The Works
 layout: 'base.njk'
 ---
+<div class="loading-overlay" id="loading-overlay">
+    <div class="spinner"></div>
+</div>
 
-    
+<div class="scroll-container">
 <div class="hero">
     <div class="textbox-container">
-        <div class="titlebox"><h1>The Works Research Institute</h1></div>
-        <div class="textbox"><p>The Works Research Institute provides new understanding of the principles of sound wave dynamics and its benefits for human wellbeing, nature and beyond.</p></div>
+        <h1>The Works Research Institute</h1>
+        <p>The Works Research Institute provides new understanding of the principles of sound wave dynamics and its benefits for human wellbeing, nature and beyond.</p>
+        <a href="#Featured" class="button-card" style="width:fit-content; padding-left: 20px; padding-right: 24px;">
+                            <div class="button-arrow">
+                                <div class="button-dot"></div>
+                                <div class="button-ring"></div>
+                            </div>
+                            Learn more
+                        </a>
     </div>
     <img class="teaser-3" style="position: absolute; left: 0; right: 0; bottom: 20px; margin-left: auto; margin-right: auto; width: 34px;" src="images/arrow.png">
 </div>
-<div class="section-wrapper">
-    <div class="textbox-container about">
-        <div class="titlebox"><h2>About</h2></div>
-        <div class="textbox"><p>The Works Research Institute conducts scientific research on sound wave dynamics and its effects on human wellbeing and natural ecosystems. To this end, The Works Research Institute collaborates with an interdisciplinary team of researchers and scientists in the field of Acoustics, Electroacoustics, Physics, Mathematics, Biology, Neurobiology and Cognitive Neuroscience. 
-
-        In conjunction with scientific studies, The Works Research Institute develops new methods and technologies in audio processing and acoustic holography, leading to a wide range of applications. One such application is the Sphere, an optimized acoustic environment for high-fidelity spatial sound projection and measuring human response to sound at various levels.
-        </p></div>
-    </div>
 </div>
-<div class="sphere" style="display:none">
-    <div class="textbox-container">
-        <div class="titlebox"><h2>The Sphere</h2></div>
-        <div class="textbox"><p>The Sphere is a sound-proof pod designed for one person, equipped with an omnidirectional microphone, loudspeaker system, and a vibro-acoustic chair. It uses spatial audio processing to deliver personalized sound treatments, optimizing the user’s acoustic profile in real-time to promote physical and emotional health. Treatment sessions last 15-40 minutes and can alleviate stress, regulate mood and sleep, and enhance cardiovascular functions, focus, creativity, and memory. User sessions are monitored and reported via an online app. The Sphere is 2.8 meters in diameter, weighs 1200 kg, and includes features like air regulation, light dimming, and door automation, with high acoustic insulation and a fully recyclable design.</p>
-            <a class="link" href="">read more<div class="href-arrow"></div></a>
-        </div>
-    </div>
-</div>
-<div class="section-wrapper">
 
-
+<div class="section-wrapper" id="Featured">
+<div style="width:100%; height: 120px"></div>
 
 
     <div class="publications-container">
@@ -53,7 +47,13 @@ layout: 'base.njk'
                         <h3>{{ post.data.title }}</h3>
                         <p>{{ post.data.preview }}</p>
                     </div>
-                        <a href="{{ post.url }}" class="button-card">read more<div class="button-arrow"></div></a>
+                        <a href="{{ post.url }}" class="button-card">
+                            <div class="button-arrow">
+                                <div class="button-dot"></div>
+                                <div class="button-ring"></div>
+                            </div>
+                            Read more
+                        </a>
                 </div>
             </article>
         </li>
@@ -64,6 +64,8 @@ layout: 'base.njk'
 
     </div>
 
+
+<script src="../js/scroll.js"></script>
 <script>
     // Function to dynamically load the script
     function loadBoxHeightScript() {

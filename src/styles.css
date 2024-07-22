@@ -1,5 +1,5 @@
 body {
-    background-color: #E2E7E9;
+    background-color: #fff;
     margin: 0px; 
     display: flex; 
     flex-direction: column;
@@ -14,12 +14,11 @@ a{
 .link{    
     cursor: pointer;
     color: #7E878B;
-    font-family: "museo-sans", sans-serif;
+    font-family: "oscine", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
     font-style: normal;
-    font-weight: 600;
     text-decoration: none; 
     line-height: normal;
     text-transform: uppercase;
@@ -87,8 +86,9 @@ a{
 	justify-content: center;
 	align-items: flex-start;
     color: #000;
-    font-family: "inter-variable", sans-serif;
-    font-variation-settings: "slnt" 0, "wght" 600;
+    font-family: "oscine", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 	font-size: 16px;
 	line-height: normal;
 }
@@ -108,8 +108,9 @@ a{
 	justify-content: center;
 	align-items: flex-start;
     color: #000;
-    font-family: "inter-variable", sans-serif;
-    font-variation-settings: "slnt" 0, "wght" 600;
+    font-family: "oscine", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 	font-size: 16px;
 	line-height: normal;
 }
@@ -130,10 +131,10 @@ a{
 	justify-content: center;
 	align-items: flex-start;
     color: #000;
-	font-family: Inter;
+    font-family: "eb-garamond", serif;
+    font-weight: 400;
+    font-style: normal;
 	font-size: 16px;
-	font-style: normal;
-	font-weight: bold;
 	line-height: normal;
 }
 
@@ -165,12 +166,14 @@ a{
 }
 
 .hero{
-    width:auto;
+    position: sticky;
+    top: 0;
+    width: 100%;
     height:98vh;
-    background-image: url(images/sphere11.jpg);
+    background-image: url(images/01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
@@ -179,6 +182,40 @@ a{
     justify-content: flex-end;
     align-items: center;
     align-self: stretch;
+    transition: background-image 0.1s ease-out;
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-top: 8px solid #000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.scroll-container {
+    width:100%;
+    height: 520vh; 
+    position: relative;
 }
 
 .team{
@@ -224,12 +261,13 @@ a{
 
 .textbox-container{
     display: flex;
-    max-width: 1440px;
+    flex-direction: column;
+    max-width: 980px;
     width: 100%;
     margin: 120px 40px;
     justify-content: flex-end;
     align-items: flex-start;
-    gap: 2px;
+    gap: 24px;
     height: fit-content;
 }
 
@@ -261,7 +299,7 @@ a{
 
 h1{
     color: #000;
-    font-family: "museo-sans", sans-serif;
+    font-family: "oscine", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 40px;
@@ -273,7 +311,7 @@ h1{
 
 h2{
     color: #000;
-    font-family: "museo-sans", sans-serif;
+    font-family: "oscine", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 40px;
@@ -285,9 +323,10 @@ h2{
 
 p{
     color: #000;
-    font-family: "inter-variable", sans-serif;
-    font-variation-settings: "slnt" 0, "wght" 400;
-    font-size: 16px;
+    font-family: "eb-garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
     line-height: 150%; /* 24px */
     margin: 0px;
 }
@@ -365,7 +404,7 @@ p{
 
 h3{
     color: #000;
-    font-family: "museo-sans", sans-serif;
+    font-family: "oscine", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 28px;
@@ -376,7 +415,7 @@ h3{
 
 h4{
     color: #000;
-    font-family: "museo-sans", sans-serif;
+    font-family: "oscine", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 22px;
@@ -407,7 +446,7 @@ h4{
     border-radius: 8px;
     background: #000;
     color: #fff;
-    font-family: "museo-sans", sans-serif;
+    font-family: "oscine", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 14px;
@@ -436,41 +475,66 @@ h4{
 .button-card{
     cursor: pointer;
     background-color: #000;
-    border-radius: 8px;
+    border-radius: 100px;
     color: #fff;
-    font-family: "museo-sans", sans-serif;
+    font-family: "oscine", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
     text-decoration: none;
     line-height: normal;
-    text-transform: uppercase;
     display: flex;
     padding: 16px;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     align-self: stretch;
     transition: background-color 0.3s ease-out, 0.3s ease-out;
 }
 
 
 .button-card:hover{
-    background-color: #2B3135;
+    background-color: #181818;
     color: #fff;
-    gap: 16px;
+    gap: 10px;
 }
 
 .button-arrow{
-    width: 12px;
-    height: 12px;
-    background-image: url(images/href-arrow-2.png);
-    transform: rotate(0deg);
-    transition: transform 0.3s ease-out;
+    position: relative;
+    width: 24px;
+    height: 24px;
 }
 
-.button-card:hover .button-arrow{
-    transform: rotate(45deg);
+.button-dot{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.button-ring{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 2px;
+    height: 2px;
+    border:1px solid #FFF ;
+    border-radius: 12px;
+    transition: width 0.3s ease-out, height 0.3s ease-out;
+}
+
+.button-card:hover .button-ring{
+    width: 22px;
+    height: 22px;
 }
 
 .card-default{
