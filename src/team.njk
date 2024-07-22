@@ -1,0 +1,85 @@
+---
+title: Harmonic Coherence - The Works
+layout: 'base.njk'
+---
+
+<div class="hero team">
+    <div class="textbox-container">
+        <div class="titlebox"><h1>The WRI Team</h1></div>
+        <div class="textbox"><p>The Works Research Institute collaborates with researchers and experts committed to advancing knowledge and innovation through an interdisciplinary approach.</p></div>
+    </div>
+    <img class="teaser-3" style="position: absolute; left: 0; right: 0; bottom: 20px; margin-left: auto; margin-right: auto; width: 34px;" src="/images/arrow.png">
+</div>
+
+<div class="section-wrapper">
+    <div class="publications-container">
+        <ul class="teaser-container blog">
+            {% for post in collections.team %}
+                <li class="team-card">
+                    <article class="teaser-card">
+                        <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover; background-position: center"></div>
+                        <div class="teaser-textbox">
+                            <div class="teas-txt-inner">
+                                <h3>{{ post.data.name }}</h3>
+                                <h4>{{ post.data.position }}</h4>
+                                <p>{{ post.data.field }}</p>
+                                <p>{{ post.data.affiliation }}</p>
+                            </div>
+                            <div class="cvcontainer">
+                                {% if post.data.cvlink %}
+                                    <a class="link" href="{{ post.data.cvlink }}" target="_blank">view cv<div class="href-arrow"></div></a>
+                                {% endif %}
+                                {% if post.data.cvfile %}
+                                    <a class="link" href="{{ post.data.cvfile }}" target="_blank">download cv<div class="href-arrow"></div></a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+
+
+<script>
+    // Function to dynamically load the script
+    function loadBoxHeightScript() {
+        var script = document.createElement('script');
+        script.src = '../js/boxheight.js';
+        script.onload = function() {
+            console.log('Script loaded successfully.');
+            // Ensure the functions from the script are called
+            adjustTextBoxHeights(); // Initial adjustment
+            window.addEventListener('resize', adjustTextBoxHeights); // Adjust on window resize
+        };
+        script.onerror = function() {
+            console.error('Error loading script.');
+        };
+        document.head.appendChild(script);
+    }
+
+    // Function to check the screen width and load the script if the condition is met
+    function checkAndLoadScript() {
+        const breakpoint = 500; // Define the breakpoint
+
+        // Check the screen width
+        if (window.innerWidth >= breakpoint) {
+            console.log('Screen width is above breakpoint, loading script...');
+            loadBoxHeightScript();
+        } else {
+            console.log('Screen width is below breakpoint, not loading script.');
+        }
+    }
+
+    // Run the check when the document is ready
+    document.addEventListener('DOMContentLoaded', checkAndLoadScript);
+
+    // Run the check on window resize
+    window.addEventListener('resize', checkAndLoadScript);
+</script>
+
+
+
+
