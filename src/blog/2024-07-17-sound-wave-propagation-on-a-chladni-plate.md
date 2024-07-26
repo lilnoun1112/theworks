@@ -3,9 +3,8 @@ title: Sound Wave Propagation on a Chladni Plate
 tags: Preprint
 featured: false
 preview: In general sound waves propagate radially outwards from a point source.
-  These waves will continue …
-image: /img/square-24-1181hz-04082022-na.png
-fullarticle: https://osf.io/rqfwk
+image: /img/resonant-mode-1.png
+fullarticle: https://osf.io/rqfwk/download/
 ---
 **Authors:** Amira Val Baker, Máté Csanád, Nicolas Fellas, Nour Atassi, Ia Mgvdliashvili, Paul Oomen.
 
@@ -13,14 +12,14 @@ fullarticle: https://osf.io/rqfwk
 
 **Disciplines:** Fluid Dynamics, Physics, Physical Sciences and Mathematics, Statistical, Nonlinear, and Soft Matter Physics.
 
-**Key words:**  Chladni Plates, Nodal Lines, Resonant Modes, Granular Media, Pattern Generation, Acoustic.
+**Keywords:** Chladni Plates, Nodal Lines, Resonant Modes, Granular Media, Pattern Generation, Acoustic.
 
 **Citations:**
 
-APA: Val Baker, A., Csanád, M., Fellas, N., Atassi, N., Rigby, I. A., & Oomen, P. (2023, September 16). Sound Wave Propagation on a Chladni Plate. https://doi.org/10.31219/osf.io/rqfwk
+APA: Val Baker, A., Csanád, M., Fellas, N., Atassi, N., Mgvdliashvili, I., & Oomen, P. (2023, September 16). Sound Wave Propagation on a Chladni Plate. https://doi.org/10.31219/osf.io/rqfwk
 
 MLA: Val Baker, Amira, et al. “Sound Wave Propagation on a Chladni Plate.” OSF Preprints, 16 Sept. 2023. Web.
 
-Chicago: Val Baker, Amira, Máté Csanád, Nicolas Fellas, Nour Atassi, Ian A. Rigby, and Paul Oomen. 2023. “Sound Wave Propagation on a Chladni Plate.” OSF Preprints. September 16. doi:10.31219/osf.io/rqfwk.
+Chicago: Val Baker, Amira, Máté Csanád, Nicolas Fellas, Nour Atassi, Ia Mgvdliashvili, and Paul Oomen. 2023. “Sound Wave Propagation on a Chladni Plate.” OSF Preprints. September 16. doi:10.31219/osf.io/rqfwk.
 
-IEEE: \[1] A. Val Baker, M. Csanád, N. Fellas, N. Atassi, I. A. Rigbyand P. Oomen, “Sound Wave Propagation on a Chladni Plate”, 16-Sep-2023. \[Online]. Available: osf.io/rqfwk.
+IEEE: \[1] A. Val Baker, M. Csanád, N. Fellas, N. Atassi, I. Mgvdliashvili and P. Oomen, “Sound Wave Propagation on a Chladni Plate”, 16-Sep-2023. \[Online]. Available: osf.io/rqfwk.
