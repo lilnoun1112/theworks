@@ -5,7 +5,7 @@ featured: false
 preview: Music and sounds activate numerous physiological effects associated
   with the functioning of the autonomic nervous system and involved in the
   maintenance of homeostasis.
-image: /img/resonant-phenomena-thumbnail.png
+image: /img/experiment-5.png
 fullarticle: https://www.researchgate.net/publication/380999184_Resonant_Phenomena_of_Sound_Waves_and_their_Expression_in_Physiology/download/
 ---
 **Authors:** Paul Oomen, Rona Geffen, Daniela Gentile, Nour Atassi, Bashar M. Farran, Nicolas Fellas, Christoph Braun, Veronica Cuevas, Luka Nadiradze, Ia Mgvdliashvili, Máté Csanád, Amira K. F. Val Baker.
