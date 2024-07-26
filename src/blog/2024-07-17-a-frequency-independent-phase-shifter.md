@@ -5,7 +5,7 @@ featured: false
 preview: A frequency-independent phase shift is determined such that two phase
   shifted versions of a signal can be summed whereby the resulting amplitude
   spectrum is unchanged.
-image: /img/fips-thumbnail.png
+image: /img/fips-graph.png
 fullarticle: https://osf.io/ps8zy/download/
 ---
 **Authors:** Máté Csanád, Amira K. F. Val Baker, Paul Oomen.
