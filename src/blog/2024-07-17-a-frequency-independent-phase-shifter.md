@@ -22,6 +22,6 @@ APA: Csanád, M., Val Baker, A., & Oomen, P. (2023, September 17). A Frequency I
 
 MLA: Csanád, Máté, et al. “A Frequency Independent Phase Shifter.” OSF Preprints, 17 Sept. 2023. Web.
 
-Chicago: Máté Csanád, Amira Val Baker, and Paul Oomen. 2023. “A Frequency Independent Phase Shifter.” OSF Preprints. September 17. doi:10.31219/osf.io/ps8zy.
+Chicago: Csanád, Máté, Amira Val Baker, and Paul Oomen. 2023. “A Frequency Independent Phase Shifter.” OSF Preprints. September 17. doi:10.31219/osf.io/ps8zy.
 
 IEEE: \[1] M. Csanád, A. Val Baker and P. Oomen, “A Frequency Independent Phase Shifter”, 17-Sep-2023. \[Online]. Available: osf.io/ps8zy.
