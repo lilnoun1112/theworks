@@ -4,7 +4,7 @@ tags: Code
 featured: false
 preview: Software to find a reference point in an image and fix perspective and
   cropping.
-image: /img/20hz_-38.218db_1.jpg
+image: /img/square-cymatics.png
 fullarticle: https://github.com/theworksinstitute/image-analysis
 ---
 Related info available here:
