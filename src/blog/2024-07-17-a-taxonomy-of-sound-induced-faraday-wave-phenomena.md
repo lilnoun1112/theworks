@@ -13,7 +13,7 @@ fullarticle: https://osf.io/hvcqx/download/
 
 **Disciplines:** Fluid Dynamics, Physics, Physical Sciences and Mathematics, Statistical, Nonlinear, and Soft Matter Physics
 
-**Key words:** cymascope, cymatics, Faraday waves, pattern, morphology, resonant phenomena, taxonomy, vibrational modes
+**Keywords:** cymascope, cymatics, Faraday waves, pattern, morphology, resonant phenomena, taxonomy, vibrational modes
 
 **Citations:** 
 
