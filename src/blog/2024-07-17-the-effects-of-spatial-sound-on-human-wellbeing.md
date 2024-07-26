@@ -2,12 +2,10 @@
 title: The Effects of Spatial Sound on Human Wellbeing
 tags: White paper
 featured: false
-preview: The emerging research into spatial sound as a medium, in conjunction
-  with recent technical developments in spatial sound processing and acoustic
-  holography, provides a new field of study that may further the understanding
-  of the principles of sound wave propagation and how to make use of its
-  potential effects on human wellbeing.
-image: /img/soundwaves-01.jpg
+preview: Emerging research into spatial sound furthers our understanding of the
+  principles of sound wave propagation and its potential effects on human
+  wellbeing.
+image: /img/image-2.jpg
 fullarticle: https://osf.io/udsjy
 ---
 **Authors:** Paul Oomen, Rona Geffen, Daniela Gentile.
