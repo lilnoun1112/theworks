@@ -12,7 +12,7 @@ fullarticle: https://osf.io/ps8zy/download/
 
 **Abstract:** A frequency-independent phase shift is determined such that two phase shifted versions of a signal can be summed whereby the resulting amplitude spectrum is unchanged. A phase difference between two signals is thus defined which remains constant for all frequencies within a given range. For the intended purpose of this study we set the frequency range to the audible human hearing range of 16 Hz - 20 kHz. We find that a new 3-stage method provides a variable phase shifter (i.e., 𝜙 = 0 - 360°) without the need for additional amplifiers. As well, we present a new method that reduces the amount of stages necessary, improving on both the accuracy and efficiency of current techniques.
 
-**Disciplines:** Engineering, Signal Processing, Electrical and Computer Engineering, Physics, Physical Sciences and Mathematics Statistical, Nonlinear, and Soft Matter Physics
+**Disciplines:** Engineering, Signal Processing, Electrical and Computer Engineering, Physics, Physical Sciences and Mathematics, Statistical, Nonlinear, and Soft Matter Physics
 
 **Keywords:** band filter, frequency independence phase shifter, signal processing, sound transformation, time delayer
 
