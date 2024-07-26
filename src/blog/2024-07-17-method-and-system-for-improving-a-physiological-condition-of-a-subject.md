@@ -4,7 +4,7 @@ tags: Patent
 featured: false
 preview: This disclosure relates to methods and systems for improving a
   physiological condition of a subject, such as a human or animal.
-image: /img/method-improving-condition-thumbnail-0.png
+image: /img/method-improving-condition-2.png
 fullarticle: https://osf.io/e7g8k/download/
 ---
 **Authors:** Paul Oomen, Rona Geffen.
