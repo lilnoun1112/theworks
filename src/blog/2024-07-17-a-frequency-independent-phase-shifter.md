@@ -3,7 +3,8 @@ title: A Frequency Independent Phase Shifter
 tags: Preprint
 featured: false
 preview: A frequency-independent phase shift is determined such that two phase
-  shifted versions of a signal ...
+  shifted versions of a signal can be summed whereby the resulting amplitude
+  spectrum is unchanged.
 image: /img/fips-thumbnail.png
 fullarticle: https://osf.io/ps8zy/download/
 ---
