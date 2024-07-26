@@ -5,7 +5,7 @@ tags: Preprint
 featured: false
 preview: Sound waves are known to be affected by the presence of a human subject
   in the acoustic environment.
-image: /img/soundwaves.jpg
+image: /img/pyramid-thumbnail.png
 fullarticle: https://osf.io/dt2wp/download/
 ---
 **Authors:** Paul Oomen, Bashar M. Farran, Daniela Gentile, Nour Atassi, Veronica Cuevas, Christoph Braun, Nicolas Fellas, Rona Geffen, Amira Val Baker.
@@ -14,7 +14,7 @@ fullarticle: https://osf.io/dt2wp/download/
 
 **Disciplines:** Psychology, Social and Behavioral Sciences, Physics, Experimental Analysis of Behavior, Biology, Physical Sciences and Mathematics, Applied Behavior Analysis.
 
-Key words:  Biomarkers, EEG, Experimental Acoustics, Signal Processing, Sound Reproduction, Spatial Audio.
+**Keywords:**  Biomarkers, EEG, Experimental Acoustics, Signal Processing, Sound Reproduction, Spatial Audio.
 
 **Citations:**
 
@@ -24,4 +24,4 @@ MLA: Oomen, Paul, et al. “Deviations in Sound Waves Associated with Physiologi
 
 Chicago: Oomen, Paul, Bashar M. Farran, Daniela Gentile, Nour Atassi, Veronica Cuevas, Christoph Braun, Nicolas Fellas, et al. 2023. “Deviations in Sound Waves Associated with Physiological and Psychological States.” OSF Preprints. September 30. doi:10.31219/osf.io/dt2wp.
 
-IEEE: \[1]P. Oomen, “Deviations in Sound Waves Associated with Physiological and Psychological States”, 30-Sep-2023. \[Online]. Available: osf.io/dt2wp.
+IEEE: \[1] P. Oomen, “Deviations in Sound Waves Associated with Physiological and Psychological States”, 30-Sep-2023. \[Online]. Available: osf.io/dt2wp.
