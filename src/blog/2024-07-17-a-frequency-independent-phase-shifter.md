@@ -14,7 +14,7 @@ fullarticle: https://osf.io/ps8zy/download/
 
 **Disciplines:** Engineering, Signal Processing, Electrical and Computer Engineering, Physics, Physical Sciences and Mathematics Statistical, Nonlinear, and Soft Matter Physics
 
-**Key words:** band filter, frequency independence phase shifter, signal processing, sound transformation, time delayer
+**Keywords:** band filter, frequency independence phase shifter, signal processing, sound transformation, time delayer
 
 **Citations:**
 
