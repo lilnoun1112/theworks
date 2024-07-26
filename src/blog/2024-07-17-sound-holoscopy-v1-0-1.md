@@ -1,5 +1,5 @@
 ---
-title: Sound Holoscopy v1.0.1
+title: Sound Holoscopy
 tags: Code
 featured: false
 preview: Software to compare a set of audio signals to a reference set across
