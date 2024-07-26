@@ -4,7 +4,7 @@ tags: Preprint
 featured: false
 preview: Sound reproduction is the electro-mechanical re-creation of sound waves
   using analogue and digital audio equipment.
-image: /img/experiment-4.png
+image: /img/experiment-5.png
 fullarticle: https://osf.io/8h7fe/download/
 ---
 **Authors:** Paul Oomen, Bashar M. Farran, Nicolas Fellas, Máté Csanád, Amira Val Baker.
