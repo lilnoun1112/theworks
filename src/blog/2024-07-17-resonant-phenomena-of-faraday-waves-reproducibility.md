@@ -4,7 +4,7 @@ tags: Preprint
 featured: false
 preview: Standing waves formed on a vibrating fluid layer when a critical
   amplitude is applied are known as Faraday waves.
-image: /img/resonantfaraday.jpg
+image: /img/circular-cuvette.png
 fullarticle: https://osf.io/dsvgc/download/
 ---
 **Authors:** Amira Val Baker, Máté Csanád, Nicolas Fellas, Nour Atassi, Paul Oomen
@@ -13,7 +13,7 @@ fullarticle: https://osf.io/dsvgc/download/
 
 **Disciplines:** Physics Physical Sciences and Mathematics Statistical, Nonlinear, and Soft Matter Physics.
 
-**Key words:**  Cymatics, Environmental Dependence, Faraday Waves, Nonlinear Dynamics, Pattern Morphology, Reproducibility. Resonant Phenomena, Vibrational Modes.
+**Keywords:** Cymatics, Environmental Dependence, Faraday Waves, Nonlinear Dynamics, Pattern Morphology, Reproducibility, Resonant Phenomena, Vibrational Modes.
 
 **Citations:**
 
@@ -23,4 +23,4 @@ MLA: Val Baker, Amira, et al. “Resonant Phenomena of Faraday Waves: Reproducib
 
 Chicago: Val Baker, Amira, Máté Csanád, Nicolas Fellas, Nour Atassi, and Paul Oomen. 2023. “Resonant Phenomena of Faraday Waves: Reproducibility.” OSF Preprints. October 9. doi:10.31219/osf.io/dsvgc.
 
-IEEE: \[1]A. Val Baker, M. Csanád, N. Fellas, N. Atassiand P. Oomen, “Resonant Phenomena of Faraday Waves: Reproducibility”, 09-Oct-2023. \[Online]. Available: osf.io/dsvgc.
+IEEE: \[1] A. Val Baker, M. Csanád, N. Fellas, N. Atassi and P. Oomen, “Resonant Phenomena of Faraday Waves: Reproducibility”, 09-Oct-2023. \[Online]. Available: osf.io/dsvgc.
