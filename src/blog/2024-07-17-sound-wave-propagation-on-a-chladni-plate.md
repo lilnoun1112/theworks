@@ -3,7 +3,8 @@ title: Sound Wave Propagation on a Chladni Plate
 tags: Preprint
 featured: false
 preview: In general sound waves propagate radially outwards from a point source.
-image: /img/chladniplate.jpg
+  These waves will continue …
+image: /img/hexagon-12-1137hz-04082022-na.png
 fullarticle: https://osf.io/rqfwk/download/
 ---
 **Authors:** Amira Val Baker, Máté Csanád, Nicolas Fellas, Nour Atassi, Ia Mgvdliashvili, Paul Oomen.
@@ -22,4 +23,4 @@ MLA: Val Baker, Amira, et al. “Sound Wave Propagation on a Chladni Plate.” O
 
 Chicago: Val Baker, Amira, Máté Csanád, Nicolas Fellas, Nour Atassi, Ian A. Rigby, and Paul Oomen. 2023. “Sound Wave Propagation on a Chladni Plate.” OSF Preprints. September 16. doi:10.31219/osf.io/rqfwk.
 
-IEEE: \[1]A. Val Baker, M. Csanád, N. Fellas, N. Atassi, I. A. Rigbyand P. Oomen, “Sound Wave Propagation on a Chladni Plate”, 16-Sep-2023. \[Online]. Available: osf.io/rqfwk.
+IEEE: \[1] A. Val Baker, M. Csanád, N. Fellas, N. Atassi, I. A. Rigbyand P. Oomen, “Sound Wave Propagation on a Chladni Plate”, 16-Sep-2023. \[Online]. Available: osf.io/rqfwk.
