@@ -6,7 +6,7 @@ preview: "Sound waves propagate radially outwards from a point source and
   continue in the same direction, decreasing in intensity, unless a boundary
   condition is met. "
 image: /img/resonant-mode-2.png
-fullarticle: https://www.mdpi.com/1099-4300/26/3/264/download/
+fullarticle: https://www.mdpi.com/1099-4300/26/3/264
 ---
 **Authors:**  Amira Val Baker, Mate Csanad, Nicolas Fellas, Nour Atassi, Ia Mgvdliashvili, Paul Oomen.
 
