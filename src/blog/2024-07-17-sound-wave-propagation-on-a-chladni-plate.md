@@ -4,7 +4,7 @@ tags: Preprint
 featured: false
 preview: In general sound waves propagate radially outwards from a point source.
   These waves will continue …
-image: /img/square-24-1181hz-04082022-na.png
+image: /img/chladniplate.jpg
 fullarticle: https://osf.io/rqfwk
 ---
 **Authors:** Amira Val Baker, Máté Csanád, Nicolas Fellas, Nour Atassi, Ia Mgvdliashvili, Paul Oomen.
