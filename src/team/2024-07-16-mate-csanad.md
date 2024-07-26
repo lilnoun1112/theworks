@@ -1,6 +1,6 @@
 ---
 name: Máté Csanád
-position: Collaborating scientist
+position: Collaborating Scientist
 field: Physics
 affiliation: ELTE Eötvös Loránd University
 image: /img/mcs.jpg
