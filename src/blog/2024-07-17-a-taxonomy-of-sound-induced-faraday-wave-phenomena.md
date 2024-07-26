@@ -21,6 +21,6 @@ APA: Geffen, R., Val Baker, A., Gentile, D., & Oomen, P. (2023, September 17). A
 
 MLA: Geffen, Rona, et al. “A Taxonomy of Sound-induced Faraday Wave Phenomena.” OSF Preprints, 17 Sept. 2023. Web.
 
-Chicago: Ron Geffen, Amira Val Baker, Daniela Gentile, and Paul Oomen. 2023. “A Taxonomy of Sound-induced Faraday Wave Phenomena.” OSF Preprints. September 17. doi:10.31219/osf.io/hvcqx.
+Chicago: Geffen, Rona, Amira Val Baker, Daniela Gentile, and Paul Oomen. 2023. “A Taxonomy of Sound-induced Faraday Wave Phenomena.” OSF Preprints. September 17. doi:10.31219/osf.io/hvcqx.
 
 IEEE: \[1] R. Geffen, A. Val Baker, D. Gentile and P. Oomen, “A Taxonomy of Sound-Induced Faraday Wave Phenomena”, 17-Sep-2023. \[Online]. Available: osf.io/hvcqx.[](https://osf.io/hvcqx/download/)
