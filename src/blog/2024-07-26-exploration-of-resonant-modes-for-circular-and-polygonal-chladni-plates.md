@@ -18,7 +18,7 @@ fullarticle: https://www.mdpi.com/1099-4300/26/3/264
 
 APA: Val Baker, A., Csanad, M., Fellas, N., Atassi, N., Mgvdliashvili, I., Oomen, P., Exploration of Resonant Modes for Circular and Polygonal Chladni Plates. Entropy 2024, 26, 264. https://doi.org/10.3390/e26030264
 
-MLA: Val Baker A, et al. "Exploration of Resonant Modes for Circular and Polygonal Chladni Plates" Entropy. 2024; 26(3):264. 
+MLA: Val Baker, Amira, et al. "Exploration of Resonant Modes for Circular and Polygonal Chladni Plates" Entropy. 2024; 26(3):264. 
 
 Chicago: Val Baker, Amira, Mate Csanad, Nicolas Fellas, Nour Atassi, Ia Mgvdliashvili, and Paul Oomen. 2024. "Exploration of Resonant Modes for Circular and Polygonal Chladni Plates" Entropy 26, no. 3: 264. https://doi.org/10.3390/e26030264
 
