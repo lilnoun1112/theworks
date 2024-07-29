@@ -1,6 +1,6 @@
 ---
 title: The Effects of Spatial Sound on Human Wellbeing
-tags: White paper
+tags: Whitepaper
 featured: false
 preview: "Emerging research into spatial sound provides a new field of study
   that may further our understanding of sound wave propagation and how to make

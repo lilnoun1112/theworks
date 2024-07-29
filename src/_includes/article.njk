@@ -24,8 +24,13 @@ layout: 'base.njk'
             {{ content |safe }}
 
             {% if fullarticle %}
-                <a href="{{ fullarticle }}" class="button-card" target="_blank">Read full article<div class="button-arrow"></div></a>
+                {% if tags == 'Code' %}
+                    <a href="{{ fullarticle }}" class="button-card" target="_blank">Access full code<div class="button-arrow"></div></a>
+                {% else %}
+                    <a href="{{ fullarticle }}" class="button-card" target="_blank">Read full article<div class="button-arrow"></div></a>
+                {% endif %}
             {% endif %}
+
             
 
         </div>

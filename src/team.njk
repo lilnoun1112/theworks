@@ -14,7 +14,7 @@ layout: 'base.njk'
 <div class="section-wrapper">
     <div class="publications-container">
         <ul class="teaser-container blog">
-            {% for post in collections.team %}
+            {% for post in collections.team | sort(attribute='data.name') %}
                 <li class="team-card">
                     <article class="teaser-card">
                         <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover; background-position: center"></div>
