@@ -16,6 +16,8 @@ fullarticle: https://osf.io/dt2wp/download/
 
 **Keywords:**  Biomarkers, EEG, Experimental Acoustics, Signal Processing, Sound Reproduction, Spatial Audio.
 
+![](/img/fips3.png)
+
 **Citations:**
 
 APA: Oomen, P., Geffen, R., Farran, B. M., Gentile, D., Atassi, N., Cuevas, V., … Val Baker, A. (2023, September 30). Deviations in Sound Waves Associated with Physiological and Psychological States. https://doi.org/10.31219/osf.io/dt2wp
