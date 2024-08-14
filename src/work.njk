@@ -44,7 +44,7 @@ layout: 'base.njk'
 <div class="section-wrapper">
   <div class="publications-container">
     <ul class="teaser-container blog">
-      {% for post in collections.publications | reverse %}
+      {% for post in collections.publications | sort(attribute="data.tags") %}
         <li class="blog-card" data-tags="{{ post.data.tags }}">
           <article class="teaser-card">
             <div class="teaser-image" style="background-image: url('/static/{{ post.data.image }}'); background-size: cover; background-position: center">
@@ -64,6 +64,7 @@ layout: 'base.njk'
     </ul> <!-- Close the last ul if there are any posts -->
   </div>
 </div>
+
 
 
 <script>
