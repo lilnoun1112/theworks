@@ -16,8 +16,6 @@ fullarticle: https://osf.io/ps8zy/download/
 
 **Keywords:** band filter, frequency independence phase shifter, signal processing, sound transformation, time delayer
 
-![]()
-
 **Citations:**
 
 APA: Csanád, M., Val Baker, A., & Oomen, P. (2023, September 17). A Frequency Independent Phase Shifter. https://doi.org/10.31219/osf.io/ps8zy
