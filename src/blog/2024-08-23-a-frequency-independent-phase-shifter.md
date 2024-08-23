@@ -1,5 +1,5 @@
 ---
-title: A Frequency-Independent Phase shifter
+title: A Frequency-Independent Phase Shifter
 tags: Peer-reviewed
 featured: false
 preview: "In this paper, we utilise optimization methods to determine a
@@ -12,7 +12,7 @@ fullarticle: https://www.mdpi.com/2624-599X/6/3/39
 
 **Abstract:** In this paper, we utilise optimization methods to determine a frequency-independent phase shift such that two phase-shifted versions of a signal can be summed and the resulting amplitude spectrum is unchanged. A phase difference between two signals is thus defined, which remains constant for all frequencies within a given range. For the intended purpose of this study, we set the frequency range to the audible human hearing range of 16 Hz–20 kHz. We found that a new 3-stage filter method provides a variable phase shifter (i.e., ϕ = 0–360°) without the need for additional amplifiers. In addition, we present a new method that reduces the number of filters necessary, improving both the accuracy and efficiency of current techniques.
 
-**Disciplines:** Engineering, Signal Processing, Electrical and Computer Engineering, Physics, Physical Sciences and Mathematics, Statistical, Nonlinear and Soft Matter Physics
+**Disciplines:** Engineering, Signal Processing, Electrical and Computer Engineering, Physics, Physical Sciences and Mathematics, Statistical, Nonlinear and Soft Matter Physics.
 
 **Keywords:** band filter, signal processing, sound transformation, phase shifter, time delayer, frequency independence.
 
