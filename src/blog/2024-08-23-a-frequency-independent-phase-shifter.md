@@ -5,7 +5,7 @@ featured: false
 preview: "In this paper, we utilise optimization methods to determine a
   frequency-independent phase shift such that two phase-shifted versions of a
   signal can be summed and the resulting amplitude spectrum is unchanged. "
-image: /img/fips2.png
+image: /img/fips-graph.png
 fullarticle: https://www.mdpi.com/2624-599X/6/3/39
 ---
 **Authors:** Máté Csanád, Amira K. F. Val Baker, Paul Oomen.
