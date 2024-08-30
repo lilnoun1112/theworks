@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: lilnoun1112/theworks
+  repo: lilnoun1112/q-field
   branch: main
-  base_url: https://netlify-cms-oauth-delta.vercel.app
+  base_url: https://netlify-cms-oauth-qfield.vercel.app
 
 media_folder: /static/img
 public_folder: /img
@@ -15,7 +15,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { name: "title", label: "Title", widget: "string" }
-      - { name: "tags", label: "Tag", widget: "select", multiple: false, options: ["Peer-reviewed", "Preprint", "Code", "Patent", "Project", "Whitepaper"] }
+      - { name: "tags", label: "Tag", widget: "select", multiple: false, options: ["Peer-reviewed", "Preprint", "Code", "Patent", "Project", "Whitepaper", "Products"] }
       - { name: "featured", label: "Featured", widget: "boolean", default: "false", required: false}
       - { name: "preview", label: "Preview", widget: "string" }
       - { name: "image", label: "Image", widget: "image" }
