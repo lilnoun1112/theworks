@@ -5,7 +5,7 @@ featured: false
 preview: Standing waves formed on a vibrating fluid layer when a critical
   amplitude is applied are known as Faraday waves.
 image: /img/circular-cuvette.png
-fullarticle: https://osf.io/dsvgc/download/
+fullarticle: https://osf.io/dsvgc/
 ---
 **Authors:** Amira Val Baker, Máté Csanád, Nicolas Fellas, Nour Atassi, Paul Oomen
 
