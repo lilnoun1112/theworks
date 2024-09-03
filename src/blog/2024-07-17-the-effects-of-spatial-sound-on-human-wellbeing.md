@@ -6,7 +6,7 @@ preview: "Emerging research into spatial sound provides a new field of study
   that may further our understanding of sound wave propagation and how to make
   use of its potential effects on human wellbeing. "
 image: /img/image-2.jpg
-fullarticle: https://osf.io/udsjy/download/
+fullarticle: https://osf.io/udsjy/
 ---
 **Authors:** Paul Oomen, Rona Geffen, Daniela Gentile.
 
