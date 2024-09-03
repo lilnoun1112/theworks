@@ -5,7 +5,7 @@ featured: false
 preview: Nonlinear standing waves known as Faraday waves are formed in vibrating
   liquids enclosed by a container.
 image: /img/pyramid-cymatics.png
-fullarticle: https://osf.io/hvcqx/download/
+fullarticle: https://osf.io/hvcqx/
 ---
 **Authors:** Rona Geffen, Amira K. F. Val Baker, Daniela Gentile, Paul Oomen.
 
