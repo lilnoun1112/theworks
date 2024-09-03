@@ -4,7 +4,7 @@ tags: Preprint
 featured: false
 preview: In general sound waves propagate radially outwards from a point source.
 image: /img/resonant-mode-1.png
-fullarticle: https://osf.io/rqfwk/download/
+fullarticle: https://osf.io/rqfwk/
 ---
 **Authors:** Amira Val Baker, Máté Csanád, Nicolas Fellas, Nour Atassi, Ia Mgvdliashvili, Paul Oomen.
 
