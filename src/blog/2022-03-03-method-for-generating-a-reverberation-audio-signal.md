@@ -5,7 +5,7 @@ featured: false
 preview: A method for generating a reverberation audio signal associated with a
   virtual object is disclosed.
 image: /img/patent4.jpg
-fullarticle: https://osf.io/dj7x9/download/
+fullarticle: https://osf.io/dj7x9/
 ---
 **Author:** Paul Oomen.
 
