@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: lilnoun1112/q-field
+  repo: lilnoun1112/theworks
   branch: main
-  base_url: https://netlify-cms-oauth-qfield.vercel.app
+  base_url: https://netlify-cms-oauth-delta.vercel.app
 
 media_folder: /static/img
 public_folder: /img
