@@ -5,7 +5,7 @@ featured: false
 preview: This disclosure relates to systems and methods for capturing
   environmental sounds and immediately replaying the captured sounds.
 image: /img/esl2.png
-fullarticle: https://osf.io/2ez8f/download/
+fullarticle: https://osf.io/2ez8f/
 ---
 **Authors:** Paul Oomen, Leendert de Klerk.
 

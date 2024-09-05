@@ -6,7 +6,7 @@ featured: false
 preview: Sound waves are known to be affected by the presence of a human subject
   in the acoustic environment.
 image: /img/pyramid-thumbnail.png
-fullarticle: https://osf.io/dt2wp/download/
+fullarticle: https://osf.io/dt2wp/
 ---
 **Authors:** Paul Oomen, Rona Geffen, Bashar M. Farran, Daniela Gentile, Nour Atassi, Veronica Cuevas, Christoph Braun, Nicolas Fellas, Máté Csanád, Amira Val Baker.
 

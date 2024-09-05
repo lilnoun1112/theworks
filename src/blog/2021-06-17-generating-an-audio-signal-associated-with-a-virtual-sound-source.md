@@ -5,7 +5,7 @@ featured: false
 preview: A method for generating an audio signal associated with a virtual sound
   source is disclosed.
 image: /img/generating3.png
-fullarticle: https://osf.io/j8k2f/download/
+fullarticle: https://osf.io/j8k2f/
 ---
 **Author:** Paul Oomen.
 
