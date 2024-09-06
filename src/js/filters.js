@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     };
   
+    // Apply the filter when the hash changes (useful for back/forward navigation)
+    window.addEventListener('hashchange', applyFilterFromHash);
+  
     // Apply the filter from the hash on initial page load
     applyFilterFromHash();
   
