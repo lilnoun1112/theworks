@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to apply filter based on the hash
     const applyFilterFromHash = () => {
       const hash = window.location.hash.replace('#', '').toLowerCase();
+      console.log('Hash detected on load:', hash);
+
       const button = Array.from(filterButtons).find(btn => btn.getAttribute('data-filter').toLowerCase() === hash);
   
       if (button) {
@@ -15,8 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     };
   
-    // Apply the filter from the hash on initial page load
-    applyFilterFromHash(); 
+    // Slightly delay the initial filter application to ensure DOM is fully loaded
+    setTimeout(() => {
+      applyFilterFromHash();
+    }, 100);  // Adjust this delay if necessary
   
     // Apply the filter when the hash changes (useful for back/forward navigation)
     window.addEventListener('hashchange', applyFilterFromHash);
