@@ -1,4 +1,3 @@
-// filters.js
 document.addEventListener('DOMContentLoaded', function () {
     const filterButtons = document.querySelectorAll('.button-filter');
     const blogCards = document.querySelectorAll('.blog-card');
@@ -16,11 +15,11 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     };
   
+    // Apply the filter from the hash on initial page load
+    applyFilterFromHash(); 
+  
     // Apply the filter when the hash changes (useful for back/forward navigation)
     window.addEventListener('hashchange', applyFilterFromHash);
-  
-    // Apply the filter from the hash on initial page load
-    applyFilterFromHash();
   
     filterButtons.forEach(button => {
       button.addEventListener('click', () => {
@@ -80,5 +79,11 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       });
     });
+  
+    // Call adjustTextBoxHeights initially and on window resize
+    if (window.innerWidth >= 880) {
+      adjustTextBoxHeights(); // Initial adjustment
+      window.addEventListener('resize', adjustTextBoxHeights); // Adjust on window resize
+    }
   });
   
