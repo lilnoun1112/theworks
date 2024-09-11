@@ -7,6 +7,8 @@ backend:
 media_folder: /static/img
 public_folder: /img
 
+logo_url: https://www.theworks.info/images/theworks-black.png
+
 collections:
   - name: "publications"
     label: "Publications"
