@@ -6,15 +6,14 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "postinstall": "chmod +x ./node_modules/.bin/eleventy"
+    "postinstall": "chmod +x ./node_modules/.bin/eleventy",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
-  },
-  "dependencies": {
-    "dropzone": "^6.0.0-beta.2"
   }
+    
 }
