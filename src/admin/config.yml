@@ -28,7 +28,7 @@ collections:
     label: "Team"
     folder: "src/team"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{name}}"
     fields:
       - { name: "name", label: "Name", widget: "string" }
       - { name: "position", label: "Position", widget: "string" }
