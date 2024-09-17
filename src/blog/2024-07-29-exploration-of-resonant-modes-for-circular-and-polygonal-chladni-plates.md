@@ -12,7 +12,9 @@ fullarticle: https://www.mdpi.com/1099-4300/26/3/264
 
 **Abstract:** In general, sound waves propagate radially outwards from a point source. These waves will continue in the same direction, decreasing in intensity, unless a boundary condition is met. To arrive at a universal understanding of the relation between frequency and wave propagation within spatial boundaries, we explore the maximum entropy states that are realized as resonant modes. For both circular and polygonal Chladni plates, a model is presented that successfully recreates the nodal line patterns to a first approximation. We discuss the benefits of such a model and the future work necessary to develop the model to its full predictive ability.
 
-**Keywords:** Chladni plates, nodal lines, resonant modes, granular media, pattern generation, acoustic.
+**Disciplines:** Fluid Dynamics, Physics, Physical Sciences and Mathematics, Statistical, Nonlinear, and Soft Matter Physics.
+
+**Keywords:** Chladni Plates, Nodal Lines, Resonant Modes, Granular Media, Pattern Generation, Acoustics.
 
 **Citations:**
 
