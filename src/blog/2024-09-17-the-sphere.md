@@ -1,7 +1,7 @@
 ---
 title: The Sphere
 tags: Project
-featured: "false"
+featured: true
 preview: "The Sphere is an optimized environment for high-fidelity spatial sound
   experience and measuring human response to sound at various levels. "
 image: /img/sphere6-1-.jpg
@@ -14,4 +14,4 @@ Inside the Sphere, the listener is seated on a floating chair in silence and com
 
 By means of a process involving stimuli and feedback response, the Sphere observes how sound influences the state of the listener and tunes the sound more precisely to the listener to induce a state of balance - the process called *entrainment*. Entrainment emerges once the biorhythms of the human body - such as breath, heartbeat and brain activity - and frequencies present within the sound waves synchronize, so they become phase coherent. This process induces *resonance*, a magnification of audible energy in space and felt around and inside the body.
 
-The Sphere has been subject of five years of research and development to establish optimal acoustic conditions for experiencing and observing the effects of sound on human wellbeing. The Sphere is powered with audio technology developed by *[Bloomline Acoustics](www.bloomline.nl)* and *[4DSOUND](www.4dsound.net)*.
+The Sphere has been subject of five years of research and development to establish optimal acoustic conditions for experiencing and observing the effects of sound on human wellbeing. The Sphere is powered with audio technology developed by [Bloomline Acoustics](http://www.bloomline.nl) and [4DSOUND](http://www.4dsound.net).
