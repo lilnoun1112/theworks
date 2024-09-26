@@ -4,7 +4,7 @@ tags: Preprint
 featured: false
 preview: The effects of sound and mechanical vibrations on blood flow and in
   vitro and in vivo blood cells were previously reported in various studies.
-image: /img/soundimmersion.jpg
+image: /img/experimental-2.png
 fullarticle: https://osf.io/b4gs6/
 ---
 **Authors:** Rona Geffen, Daniela Gentile, Nour Atassi, John Stuart Reid, Veronica Cuevas, Christoph Braun, Bashar M. Farran, Paul Oomen.
