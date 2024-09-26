@@ -6,7 +6,7 @@ preview: Music and sounds activate numerous physiological effects associated
   with the functioning of the autonomic nervous system and involved in the
   maintenance of homeostasis.
 image: /img/resonant-phenomena-thumbnail.png
-fullarticle: https://www.researchgate.net/publication/380999184_Resonant_Phenomena_of_Sound_Waves_and_their_Expression_in_Physiology/download/
+fullarticle: https://osf.io/preprints/osf/x5tgn
 ---
 **Authors:** Paul Oomen, Rona Geffen, Daniela Gentile, Nour Atassi, Bashar M. Farran, Nicolas Fellas, Christoph Braun, Veronica Cuevas, Luka Nadiradze, Ia Mgvdliashvili, Máté Csanád, Amira K. F. Val Baker.
 
@@ -14,10 +14,10 @@ fullarticle: https://www.researchgate.net/publication/380999184_Resonant_Phenome
 
 **Citations:**
 
-APA: Oomen, P., Geffen R., Gentile, D., Atassi, N., Farran, B. M., Fellas, N., ... Val Baker, A. (2024, May 22). Resonant Phenomena of Sound Waves and their Expression in Physiology. https://doi.org/10.13140/RG.2.2.29100.88963
+APA: Oomen, P., Geffen R., Gentile, D., Atassi, N., Farran, B. M., Fellas, N., ... Val Baker, A. (2024, May 22). Resonant Phenomena of Sound Waves and their Expression in Physiology. https://doi.org/10.31219/osf.io/x5tgn
 
-MLA: Oomen, P, et al. “Resonant Phenomena of Sound Waves and their Expression in Physiology” RG Preprints, 22 May 2024. Web.
+MLA: Oomen, P, et al. “Resonant Phenomena of Sound Waves and their Expression in Physiology” OSF Preprints, 22 May 2024. Web.
 
-Chicago: Oomen, Paul, Rona Geffen, Daniela Gentile, Nour Atassi, Bashar M. Farran, Nicolas Fellas, Christoph Braun, et al. 2024. “Resonant Phenomena of Sound Waves and their Expression in Physiology” RG Preprints. May 22. doi: 10.13140/RG.2.2.29100.88963.
+Chicago: Oomen, Paul, Rona Geffen, Daniela Gentile, Nour Atassi, Bashar M. Farran, Nicolas Fellas, Christoph Braun, et al. 2024. “Resonant Phenomena of Sound Waves and their Expression in Physiology” OSF Preprints. May 22. doi: 10.31219/osf.io/x5tgn
 
-IEEE: \[1] P. Oomen, “Resonant Phenomena of Sound Waves and their Expression in Physiology”, 22-May-2024. \[Online]. Available: 10.13140/RG.2.2.29100.88963.
+IEEE: \[1] P. Oomen, “Resonant Phenomena of Sound Waves and their Expression in Physiology”, 22-May-2024. \[Online]. Available: 10.31219/osf.io/x5tgn
