@@ -4,7 +4,7 @@ tags: Preprint
 featured: false
 preview: "Music and sounds evoke a wide range of emotions and activate numerous
   associated psychological and physiological effects. "
-image: /img/sphere-immersion.jpg
+image: /img/experimental-2.png
 fullarticle: https://www.researchgate.net/publication/384152526_Effects_of_Sound_Immersion_on_Emotional_Wellbeing_and_Homeostasis
 ---
 **Authors:** Daniela Gentile, Rona Geffen, Nour Atassi, Bashar M. Farran, Nicolas Fellas, and Paul Oomen
