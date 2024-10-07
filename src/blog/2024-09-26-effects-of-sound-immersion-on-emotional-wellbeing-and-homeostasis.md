@@ -23,4 +23,4 @@ MLA: Gentile, Daniela, et al. “Effects of Sound Immersion on Emotional Wellbei
 
 Chicago: Gentile, Daniela, Rona Geffen, Nour Atassi, Bashar M. Farran, Nicolas Fellas, and Paul Oomen. 2024. “Effects of Sound Immersion on Emotional Wellbeing and Homeostasis.” OSF Preprints. October 3. doi:10.31219/osf.io/cmpw8.
 
-IEEE: \[1] D. Gentile, R. Geffen, N. Atassi, B. M. Farran, N. Fellas and P. Oomen, “Effects of Sound Immersion on Emotional Wellbeing and Homeostasis”. \[Online]. Available: osf.io/cmpw8.
+IEEE: \[1] D. Gentile, R. Geffen, N. Atassi, B. M. Farran, N. Fellas and P. Oomen, “Effects of Sound Immersion on Emotional Wellbeing and Homeostasis”, 3-Oct-2024. \[Online]. Available: osf.io/cmpw8.
