@@ -1,12 +1,20 @@
 {
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "public"
-        }
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "public"
       }
-    ]
-  }
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/ION5/Q32024",
+      "destination": "https://apps.apple.com/us/app/ion-wavelet/id1580352439",
+      "permanent": true
+    }
+  ]
+}
+
   
