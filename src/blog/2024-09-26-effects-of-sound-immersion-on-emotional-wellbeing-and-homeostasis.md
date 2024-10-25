@@ -5,7 +5,7 @@ featured: false
 preview: "Music and sounds evoke a wide range of emotions and activate numerous
   associated psychological and physiological effects. "
 image: /img/immersion_5.jpg
-fullarticle: https://www.researchgate.net/publication/384152526_Effects_of_Sound_Immersion_on_Emotional_Wellbeing_and_Homeostasis
+fullarticle: https://osf.io/preprints/osf/cmpw8
 ---
 **Authors:** Daniela Gentile, Rona Geffen, Nour Atassi, Bashar M. Farran, Nicolas Fellas, and Paul Oomen
 
@@ -17,10 +17,10 @@ fullarticle: https://www.researchgate.net/publication/384152526_Effects_of_Sound
 
 **Citations:**
 
-APA: Gentile, D., Geffen, R., Atassi, N., Farran, B. M., Fellas, N., & Oomen, P. (n.d.). Effects of Sound Immersion on Emotional Wellbeing and Homeostasis. Retrieved from osf.io/cmpw8
+APA: Gentile, D., Geffen, R., Atassi, N., Farran, B. M., Fellas, N., & Oomen, P. (2024, October 3). Effects of Sound Immersion on Emotional Wellbeing and Homeostasis. https://doi.org/10.31219/osf.io/cmpw8
 
-MLA: Gentile, Daniela, et al. “Effects of Sound Immersion on Emotional Wellbeing and Homeostasis.” OSF Preprints, n.d. Web.
+MLA: Gentile, Daniela, et al. “Effects of Sound Immersion on Emotional Wellbeing and Homeostasis.” OSF Preprints, 3 Oct. 2024. Web.
 
-Chicago: Gentile, Daniela, Rona Geffen, Nour Atassi, Bashar M. Farran, Nicolas Fellas, and Paul Oomen. n.d. “Effects of Sound Immersion on Emotional Wellbeing and Homeostasis.” OSF Preprints. osf.io/cmpw8.
+Chicago: Gentile, Daniela, Rona Geffen, Nour Atassi, Bashar M. Farran, Nicolas Fellas, and Paul Oomen. 2024. “Effects of Sound Immersion on Emotional Wellbeing and Homeostasis.” OSF Preprints. October 3. doi:10.31219/osf.io/cmpw8.
 
-IEEE: \[1] D. Gentile, R. Geffen, N. Atassi, B. M. Farran, N. Fellas and P. Oomen, “Effects of Sound Immersion on Emotional Wellbeing and Homeostasis”. \[Online]. Available: osf.io/cmpw8.
+IEEE: \[1] D. Gentile, R. Geffen, N. Atassi, B. M. Farran, N. Fellas and P. Oomen, “Effects of Sound Immersion on Emotional Wellbeing and Homeostasis”, 3-Oct-2024. \[Online]. Available: osf.io/cmpw8.
