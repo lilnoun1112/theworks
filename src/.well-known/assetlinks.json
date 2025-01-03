@@ -1,0 +1,127 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "6Y8V5ZD9KQ.info.origin.ION",
+          "6Y8V5ZD9KQ.info.origin.ION.stg"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/",
+            "comment": "Matches the root path."
+          },
+          {
+            "/": "/dashboard",
+            "comment": "Matches the /dashboard route."
+          },
+          {
+            "/": "/portfolio",
+            "comment": "Matches the /portfolio route."
+          },
+          {
+            "/": "/portfolio/preorder/confirm",
+            "comment": "Matches the /portfolio/preorder/confirm route."
+          },
+          {
+            "/": "/chat",
+            "comment": "Matches the /chat route."
+          },
+          {
+            "/": "/chat/whatIsION",
+            "comment": "Matches the /chat/whatIsION route."
+          },
+          {
+            "/": "/chat/wavelets",
+            "comment": "Matches the /chat/wavelets route."
+          },
+          {
+            "/": "/chat/terms",
+            "comment": "Matches the /chat/terms route."
+          },
+          {
+            "/": "/share",
+            "comment": "Matches the /share route."
+          },
+          {
+            "/": "/welcome",
+            "comment": "Matches the /welcome route."
+          },
+          {
+            "/": "/welcome/login",
+            "comment": "Matches the /welcome/login route."
+          },
+          {
+            "/": "/welcome/login/biometrics",
+            "comment": "Matches the /welcome/login/biometrics route."
+          },
+          {
+            "/": "/welcome/login/using-password",
+            "comment": "Matches the /welcome/login/using-password route."
+          },
+          {
+            "/": "/settings",
+            "comment": "Matches the /settings route."
+          },
+          {
+            "/": "/settings/account",
+            "comment": "Matches the /settings/account route."
+          },
+          {
+            "/": "/settings/accountSettings",
+            "comment": "Matches the /settings/accountSettings route."
+          },
+          {
+            "/": "/settings/account/change-email",
+            "comment": "Matches the /settings/account/change-email route."
+          },
+          {
+            "/": "/register",
+            "comment": "Matches the /register route."
+          },
+          {
+            "/": "/change-password",
+            "comment": "Matches the /change-password route."
+          },
+          {
+            "/": "/forgot-password",
+            "comment": "Matches the /forgot-password route."
+          },
+          {
+            "/": "/forgot-password/form",
+            "comment": "Matches the /forgot-password/form route."
+          },
+          {
+            "/": "/help/website/*",
+            "exclude": true,
+            "comment": "Matches any URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/help/*",
+            "?": {
+              "articleNumber": "????"
+            },
+            "comment": "Matches any URL with a path that starts with /help/ and that has a query item named 'articleNumber' of exactly four characters."
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "6Y8V5ZD9KQ.info.origin.ION",
+      "6Y8V5ZD9KQ.info.origin.ION.stg"
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "6Y8V5ZD9KQ.info.origin.ION",
+      "6Y8V5ZD9KQ.info.origin.ION.stg"
+    ]
+  }
+}
