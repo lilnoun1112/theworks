@@ -4,7 +4,7 @@ tags: Patent
 featured: false
 preview: Methods and systems are disclosed for signal processing, in particular
   of an entrainment signal.
-image: /img/entrainment-signal.jpg
+image: /img/entrainment-headphones.jpg
 fullarticle: https://osf.io/92vgr
 ---
 **Author:** Paul Oomen
