@@ -3,8 +3,8 @@
     "details": [
       {
         "appIDs": [
-          "6Y8V5ZD9KQ.info.origin.ION",
-          "6Y8V5ZD9KQ.info.origin.ION.stg"
+          "6Y8V5ZD9KQ.info.theworks.ion",
+          "6Y8V5ZD9KQ.info.theworks.ion.stg"
         ],
         "components": [
           {
@@ -114,14 +114,14 @@
   },
   "webcredentials": {
     "apps": [
-      "6Y8V5ZD9KQ.info.origin.ION",
-      "6Y8V5ZD9KQ.info.origin.ION.stg"
+      "6Y8V5ZD9KQ.info.theworks.ion",
+      "6Y8V5ZD9KQ.info.theworks.ion.stg"
     ]
   },
   "appclips": {
     "apps": [
-      "6Y8V5ZD9KQ.info.origin.ION",
-      "6Y8V5ZD9KQ.info.origin.ION.stg"
+      "6Y8V5ZD9KQ.info.theworks.ion",
+      "6Y8V5ZD9KQ.info.theworks.ion.stg"
     ]
   }
 }
