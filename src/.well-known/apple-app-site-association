@@ -3,8 +3,8 @@
     "details": [
       {
         "appIDs": [
-          "6Y8V5ZD9KQ.info.theworks.ion",
-          "6Y8V5ZD9KQ.info.theworks.ion.stg"
+          "QD9DM624PK.info.theworks.ion",
+          "QD9DM624PK.info.theworks.ion.stg"
         ],
         "components": [
           {
@@ -33,20 +33,36 @@
             "comment": "Matches the /chat route."
           },
           {
-            "/": "/chat/whatIsION",
-            "comment": "Matches the /chat/whatIsION route."
-          },
-          {
-            "/": "/chat/wavelets",
-            "comment": "Matches the /chat/wavelets route."
-          },
-          {
-            "/": "/chat/terms",
-            "comment": "Matches the /chat/terms route."
-          },
-          {
             "/": "/share",
             "comment": "Matches the /share route."
+          },
+          {
+            "/": "/general",
+            "comment": "Matches the /general route."
+          },
+          {
+            "/": "/general/about-ion",
+            "comment": "Matches the /general/about-ion route."
+          },
+          {
+            "/": "/general/terms",
+            "comment": "Matches the /general/terms route."
+          },
+          {
+            "/": "/general/contact",
+            "comment": "Matches the /general/contact route."
+          },
+          {
+            "/": "/general/account",
+            "comment": "Matches the /general/account route."
+          },
+          {
+            "/": "/general/account/change-email",
+            "comment": "Matches the /general/account/change-email route."
+          },
+          {
+            "/": "/general/account-settings",
+            "comment": "Matches the /general/account-settings route."
           },
           {
             "/": "/welcome",
@@ -61,24 +77,8 @@
             "comment": "Matches the /welcome/login/biometrics route."
           },
           {
-            "/": "/welcome/login/using-password",
-            "comment": "Matches the /welcome/login/using-password route."
-          },
-          {
-            "/": "/settings",
-            "comment": "Matches the /settings route."
-          },
-          {
-            "/": "/settings/account",
-            "comment": "Matches the /settings/account route."
-          },
-          {
-            "/": "/settings/accountSettings",
-            "comment": "Matches the /settings/accountSettings route."
-          },
-          {
-            "/": "/settings/account/change-email",
-            "comment": "Matches the /settings/account/change-email route."
+            "/": "/welcome/login/password",
+            "comment": "Matches the /welcome/login/password route."
           },
           {
             "/": "/register",
@@ -95,18 +95,6 @@
           {
             "/": "/forgot-password/form",
             "comment": "Matches the /forgot-password/form route."
-          },
-          {
-            "/": "/help/website/*",
-            "exclude": true,
-            "comment": "Matches any URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
-          },
-          {
-            "/": "/help/*",
-            "?": {
-              "articleNumber": "????"
-            },
-            "comment": "Matches any URL with a path that starts with /help/ and that has a query item named 'articleNumber' of exactly four characters."
           }
         ]
       }
@@ -114,14 +102,14 @@
   },
   "webcredentials": {
     "apps": [
-      "6Y8V5ZD9KQ.info.theworks.ion",
-      "6Y8V5ZD9KQ.info.theworks.ion.stg"
+      "QD9DM624PK.info.theworks.ion",
+      "QD9DM624PK.info.theworks.ion.stg"
     ]
   },
   "appclips": {
     "apps": [
-      "6Y8V5ZD9KQ.info.theworks.ion",
-      "6Y8V5ZD9KQ.info.theworks.ion.stg"
+      "QD9DM624PK.info.theworks.ion",
+      "QD9DM624PK.info.theworks.ion.stg"
     ]
   }
 }
