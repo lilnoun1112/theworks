@@ -1,6 +1,6 @@
 ---
 name: Luka Nadiradze
-position: Full Stack Development
+position: Software Engineer
 field: Computer Engineering, Neuroscience
 affiliation: The Works Research Institute
 image: /teamimages/luka.png
