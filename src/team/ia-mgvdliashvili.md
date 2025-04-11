@@ -1,6 +1,6 @@
 ---
 name: Ia Mgvdliashvili
-position: Software Prototyping
+position: Software Engineer
 field: Full Stack Development
 affiliation: The Works Research Institute
 image: /teamimages/irm.jpg
