@@ -18,10 +18,10 @@ fullarticle: https://waterjournal.org/volume-14/baker/
 
 **Citations:**
 
-APA: Geffen, R., Val Baker, A., Gentile, D., & Oomen, P. (2025). Resonant Phenomena of Faraday Waves: A Classification According to New and Existing Terms. Water, 14, 99-163 [doi:10.14294/WATER.2025.3](http://dx.doi.org/10.14294/WATER.2025.3)
+APA: Geffen, R., Val Baker, A., Gentile, D., & Oomen, P. (2025). Resonant Phenomena of Faraday Waves: A Classification According to New and Existing Terms. Water, 14, 99-163 doi:10.14294/WATER.2025.3
 
-AMA: Geffen, R, Val Baker AKF, Gentile D, Oomen P. Resonant Phenomena of Faraday Waves: A Classification According to New and Existing Terms. Water. 2025; 14: 99-163 [doi:10.14294/WATER.2025.3](http://dx.doi.org/10.14294/WATER.2025.3)
+AMA: Geffen, R, Val Baker AKF, Gentile D, Oomen P. Resonant Phenomena of Faraday Waves: A Classification According to New and Existing Terms. Water. 2025; 14: 99-163 doi:10.14294/WATER.2025.3
 
-Chicago: Geffen, Rona, Amira Val Baker, Daniela Gentile, and Paul Oomen. 2025. “Resonant Phenomena of Faraday Waves: A Classification According to New and Existing Terms.” Water 14: 99-163 [doi:10.14294/WATER.2025.3](http://dx.doi.org/10.14294/WATER.2025.3)
+Chicago: Geffen, Rona, Amira Val Baker, Daniela Gentile, and Paul Oomen. 2025. “Resonant Phenomena of Faraday Waves: A Classification According to New and Existing Terms.” Water 14: 99-163 doi:10.14294/WATER.2025.3
 
 IEEE: \[1] R. Geffen, A. Val Baker, D. Gentile and P. Oomen, “Resonant Phenomena of Faraday Waves: A Classification According to New and Existing Terms.”, Water 14: 99-163, 2025. doi:10.14294/WATER.2025.3
