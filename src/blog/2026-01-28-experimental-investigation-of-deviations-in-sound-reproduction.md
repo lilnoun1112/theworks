@@ -4,7 +4,7 @@ tags: Peer-reviewed
 featured: false
 preview: Deviations increase greater than fifteen times when a human subject is
   present in the acoustic environment.
-image: /img/figure-6.png
+image: /img/figure-7a.png
 fullarticle: https://www.mdpi.com/2624-599X/8/1/7
 ---
 
