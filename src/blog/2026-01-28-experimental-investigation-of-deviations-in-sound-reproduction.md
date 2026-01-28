@@ -4,7 +4,7 @@ tags: Peer-reviewed
 featured: false
 preview: "Deviations in sound waves show complex variance depending on the type
   of reproduction and the subject, indicating a nonlinear dynamic interaction. "
-image: /img/figure-7a.png
+image: /img/waves_tw.jpg
 fullarticle: https://www.mdpi.com/2624-599X/8/1/7
 ---
 **Authors:** Paul Oomen, Bashar Farran, Luka Nadiradze, Máté Csanád, Amira K. F. Val Baker.
