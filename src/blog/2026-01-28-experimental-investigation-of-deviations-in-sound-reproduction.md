@@ -3,7 +3,8 @@ title: Experimental Investigation of Deviations in Sound Reproduction
 tags: Peer-reviewed
 featured: false
 preview: "Deviations in sound waves show complex variance depending on the type
-  of reproduction and the subject, indicating a nonlinear dynamic interaction. "
+  of reproduction and the human subject, indicating a nonlinear dynamic
+  interaction. "
 image: /img/spectrum.jpg
 fullarticle: https://www.mdpi.com/2624-599X/8/1/7
 ---
