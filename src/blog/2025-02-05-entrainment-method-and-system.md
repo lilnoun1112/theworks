@@ -1,5 +1,5 @@
 ---
-title: Entrainment Method and System
+title: Entrainment System and Method
 tags: Patent
 featured: false
 preview: Methods and systems are disclosed for signal processing, in particular
