@@ -6,7 +6,7 @@ featured: false
 preview: "Music and sounds elicit a wide range of psychophysiological responses
   dependent on the stimulus type, frequency, duration, and spatial conditions of
   the acoustic environment. "
-image: /img/screenshot-2026-05-21-124815.png
+image: /img/screenshot-2026-05-21-125122.png
 fullarticle: https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2026.1806052/full#h1
 ---
 **Authors:** Paul Oomen, Rona Geffen, Daniela Gentile, Nour Atassi, Bashar Farran, Christoph Braun, Veronica Cuevas Villaneuva, Luka Nadiradze, Máté Csanád, Amira K. F. Val Baker.
