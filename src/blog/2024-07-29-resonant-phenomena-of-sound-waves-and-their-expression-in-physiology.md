@@ -5,7 +5,7 @@ featured: false
 preview: Music and sounds activate numerous physiological effects associated
   with the functioning of the autonomic nervous system and involved in the
   maintenance of homeostasis.
-image: /img/screenshot-2026-09-17-151551.png
+image: /img/screenshot-2026-09-17-152059.png
 fullarticle: https://osf.io/preprints/osf/x5tgn
 ---
 **Authors:** Paul Oomen, Rona Geffen, Daniela Gentile, Nour Atassi, Bashar M. Farran, Nicolas Fellas, Christoph Braun, Veronica Cuevas, Luka Nadiradze, Ia Mgvdliashvili, Máté Csanád, Amira K. F. Val Baker.
