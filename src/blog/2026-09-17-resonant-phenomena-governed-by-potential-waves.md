@@ -5,7 +5,7 @@ featured: true
 preview: In this article, we postulate a theory of resonance fundamentally
   acting as a negentropic force in the formation of matter and the accumulation
   of energy on a micro and macroscopic scale.
-image: /img/screenshot-2026-09-17-143440.png
+image: /img/screenshot-2026-09-18-105518.png
 fullarticle: https://www.harmonic-science.org/journals/vol-1-issue-2
 ---
 **Authors:** Amira Val Baker, Paul Oomen.
