@@ -7,7 +7,7 @@ preview: "The Sphere is an optimized environment for high-fidelity spatial sound
 image: /img/sphere6-1-.jpg
 fullarticle: https://www.theworks.info/blog/2024-07-17-sphere/
 ---
-The Works Research Institute conducts scientific research on the effects of sound on human wellbeing. To this end, we designed *the Sphere* - a perfectly spherical sound pod for one person to sit inside. It offers an optimized environment for high-fidelity spatial sound experience and measuring human response to sound at various levels, such as the brain activity and vital functions.
+The Works Research Institute conducts scientific research on the effects of sound on human wellbeing. To this end, we designed *the Sphere* - a perfectly spherical sound pod for one person to sit inside. It offers an optimized environment for high-fidelity spatial sound experience and measuring human response to sound at various levels, such as the brain activity and autonomic function.
 
 Sound has a deeply rooted relation with the neuro-physiological functioning of the human body. The inner ear is the first sensory organ to develop during the embryonic phase in the womb, which influences the early development of the brain and nervous system. Hearing controls balance, posture and motoric functions of the body. The skin, muscles, organs and bone structure all play a fundamental role in the detection of vibrations. As such, sound also has measurable effects on the parasympathetic nervous system that helps maintain the body in balance, or *homeostasis*. 
 
